@@ -1,0 +1,233 @@
+* {
+    font-family: "futura std medium";
+    
+  }
+  @font-face {
+    font-family: "futura std heavy";
+    src: url("/fonts/FuturaStdHeavy.woff") format("woff");
+  }
+  @font-face {
+    font-family: "futura std book";
+    src: url("/fonts/FuturaStdBook.woff") format("woff");
+  }
+  @font-face {
+    font-family: "futura std medium";
+    src: url("/fonts/FuturaStdMedium.woff") format("woff");
+  }
+  .innerimg {
+    text-align: center;
+    color: black;
+  }
+  .row {
+    width: 95%;
+    margin: auto;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 2%;
+  }
+  .far {
+    float: right;
+    font-size: large;
+    padding: 5px;
+  }
+  .fass {
+    float: right;
+    font-size: large;
+    padding: 5px;
+    color: red;
+  }
+  .far:hover {
+    color: red;
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+  .sort_container {
+    background-color: white;
+    overflow-y: scroll;
+    height: 100vh;
+    float: right;
+    width: 80%;
+    border-left: 1.5px solid rgb(237, 237, 237);
+  }
+  .sort_container .container_head {
+    height: 40px;
+    margin: 0%;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .text {
+    font-family: "futura std medium";
+    letter-spacing: 1px;
+    opacity: 0.8;
+    font-size: 1.1vw;
+  }
+  .sort {
+    font-family: "futura std heavy";
+    letter-spacing: 1px;
+    font-size: 1vw;
+    font-weight: bold;
+    color: rgb(51, 183, 185);
+  }
+  .icon {
+    margin-right: -8px;
+  }
+  .arrow {
+    color: rgb(51, 183, 185);
+  }
+  .container::-webkit-scrollbar {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  .imageBox:hover img {
+    opacity: 0;
+  }
+  .box_wrapper {
+    width: fit-content;
+    height: 100%;
+  }
+  .box_wrapper:hover .box {
+    box-shadow: 2px 2px 8px rgb(151, 151, 151);
+    height: 94%;
+    transition: height 0.3s ease-in, box-shadow 0.3s linear;
+  }
+  .box {
+    width: auto;
+    min-width: 200px;
+    height: 100%;
+    min-height: fit-content;
+    transform-origin: 50% 0%;
+  }
+  
+  .imageBox {
+    width: 70%;
+    margin: 0px auto;
+  }
+  .imageBox img {
+    width: 100%;
+  }
+  .detail_box {
+    padding-inline: 1rem;
+  }
+  
+  .catagory {
+    font-family: "futura std book";
+    font-size: 1.05vw;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  .rating {
+    display: inline-block;
+    padding: 2px 8px 2px 4px;
+    border-radius: 8px;
+    font-size: 0.9vw;
+    color: white;
+    background-color: rgb(40, 199, 191);
+    font-family: "futura std book";
+  }
+  .price {
+    font-weight: bolder;
+    font-family: "futura std medium";
+  }
+  .size {
+    font-family: "futura std book";
+    font-size: 1vw;
+    color: rgba(0, 0, 0, 0.753);
+  }
+  .pdtclr {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    float: right;
+  }
+  .size {
+    opacity: 0;
+  }
+  .box_wrapper:hover .size {
+    opacity: 1;
+  }
+  .box_wrapper:hover .detail_box {
+    transition: transform 0.3s ease;
+    transform: translateY(-30%);
+  }
+  
+  .flexed {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .frame {
+    font-size: 1vw;
+    overflow-y: scroll;
+    width: 20%;
+    height: 100vh;
+  }
+  .frame::-webkit-scrollbar {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  .framebox {
+    text-align: center;
+    width: 30%;
+    border: 1px solid gainsboro;
+    color: rgb(170, 168, 168);
+  }
+  .framebox:hover {
+    border: 1px solid black;
+  }
+  .framebox img {
+    width: 100%;
+    padding: 0%;
+  }
+  .column-flex {
+    display: flex;
+    flex-flow: column;
+    color: lightgray;
+  }
+  
+  .sc:hover {
+    color: black;
+    cursor: pointer;
+  }
+  .sc {
+    width: 55%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .drop-down {
+    height: 50px;
+    width: 98%;
+    margin: auto;
+    border-left: none;
+    border: 1px solid gainsboro;
+    color: slategray;
+    font-weight: bolder;
+  }
+  .whole-content {
+    margin: auto;
+    width: 96%;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .bottom30 {
+    margin-bottom: 30px;
+  }
+  .frame_style {
+    font-family: "futura std medium";
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: grey;
+    margin-bottom: 10px;
+  }
+  .star {
+    color: white;
+    font-size: small;
+    padding: 0px 0px 0px 5px;
+  }
+  
+
+  
