@@ -1,8 +1,8 @@
-* {
+/* * {
     font-family: "futura std medium";
     
-  }
-  @font-face {
+  } */
+  /* @font-face {
     font-family: "futura std heavy";
     src: url("/fonts/FuturaStdHeavy.woff") format("woff");
   }
@@ -13,7 +13,7 @@
   @font-face {
     font-family: "futura std medium";
     src: url("/fonts/FuturaStdMedium.woff") format("woff");
-  }
+  } */
   .innerimg {
     text-align: center;
     color: black;
@@ -168,16 +168,16 @@
     appearance: none;
   }
   
-  .framebox {
+  .FrameBox-1 {
     text-align: center;
     width: 30%;
     border: 1px solid gainsboro;
     color: rgb(170, 168, 168);
   }
-  .framebox:hover {
+  .FrameBox-1:hover {
     border: 1px solid black;
   }
-  .framebox img {
+  .FrameBox-1 img {
     width: 100%;
     padding: 0%;
   }
@@ -197,7 +197,7 @@
     justify-content: flex-start;
   }
   
-  .drop-down {
+  .Drop-Down-1 {
     height: 50px;
     width: 98%;
     margin: auto;
@@ -206,6 +206,7 @@
     color: slategray;
     font-weight: bolder;
   }
+
   .whole-content {
     margin: auto;
     width: 96%;
@@ -223,11 +224,10 @@
     color: grey;
     margin-bottom: 10px;
   }
-  .star {
+  /* .star {
     color: white;
     font-size: small;
     padding: 0px 0px 0px 5px;
   }
-  
+   */
 
-  
