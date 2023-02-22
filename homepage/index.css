@@ -1,14 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
 * {
-    box-sizing: border-box;
-    z-index: 1;
+    /* box-sizing: border-box; */
 }
 .nav {
     width: 100%;
     margin: auto;
     position: fixed;
     margin: auto;
+    z-index: 2;
 }
 /* -----------------------------> this is type 1 navbar */
 .first > .inner {
@@ -46,7 +46,7 @@
 .lefty {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 5px;
     margin-left: 20px;
     width: 820px;
     align-items: center;
@@ -83,6 +83,9 @@
     font-family: 'Open Sans', sans-serif;
     letter-spacing: -0.6px;
     color: #000042;
+}
+.second > .others > a > img {
+    width: 12px;
 }
 /* ----------------------------> this is type 3 nav */
 .third  {
@@ -146,7 +149,6 @@
 }
 #card1 > img {
     width: 180px;
-    /* border: 1px solid red; */
     margin-top: 5px;
     margin-left: 5px;
 }
@@ -162,4 +164,10 @@
 }
 img {
     width: 100%;
+}
+/* --------------------------> this is footer  */
+.footer {
+    background-color: #000042;
+    color: white;
+    font-family: futurastd-book,helvetica neue,Helvetica,Arial,sans-serif;
 }
