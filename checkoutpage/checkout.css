@@ -1,0 +1,171 @@
+
+   
+    input{
+        border-radius: 20px;
+        border: 0px;
+    }
+#box1{
+    height: 700px;
+    width: 90%;
+ border:1px solid blue;
+ 
+ 
+    
+}
+#box2{
+height: 80px;
+width: 100%;
+ /* box-shadow: 1px 1px 1px 1px rgb(247, 243, 243);  */
+
+}
+
+#box2>img{
+height: 50px;
+width: 15%;
+}
+#box3{
+display: flex;
+height: 630px;
+width: 100%;
+margin-top: 0px;
+
+
+}
+#box4{
+height: 630px;
+width: 60%;
+ /* box-shadow: 1px 1px 1px 1px rgb(247, 243, 243) ;  */
+
+}
+
+#box5{
+height: 630px;
+width: 40%;
+margin-left: 40px;
+/* box-shadow: 5px 5px 5px 5px rgb(247, 243, 243) ; */
+
+}
+h3{
+    margin-top: 0px;
+margin-left: 100px;
+}
+.box6{
+ display: flex;
+ width: 77%;
+ height: 40px;
+ margin-left: 100px;
+ margin-bottom: 50px;
+}
+.inp1{
+height: 40px;
+width: 170%;
+border: 1px solid;
+
+}
+.inp2{
+height: 40px;
+width: 100%;
+border: 1px solid;
+margin-left: 150px;
+}
+#inp1:hover{
+background-color: rgb(236, 231, 231);
+
+
+}
+p{
+color: gray; 
+margin-left: 100px;
+}
+.inp3{
+height: 40px;
+width: 72.9%;
+border: 1px solid;
+margin-left: 100px;
+margin-bottom: 10px;
+}
+#btn1{
+height: 40px;
+width: 50%;
+background-color:#00BBC6;
+color: white;
+margin-left: 150px;
+}
+#box7{
+height: 40px;
+width: 78%;
+background-color: rgb(214, 214, 238);
+display: flex;
+margin-top: 20px;
+margin-left: 65px;
+justify-content: space-between;
+}
+#box7>div{
+height: 60px;
+width: 31%;
+}
+#opt1{
+    height: 40px;
+    width: 65%;
+    border: 0px solid;
+}
+#box8>img{
+height: 30px;
+width: 30%;
+
+}
+.box9{
+height: 40px;
+width: 77%;
+display: flex;
+margin: auto;
+margin-bottom: 20px;
+justify-content: space-between;
+
+}
+.box9>div{
+    height: 40px;
+    width: 45%;
+    border: 1px solid;
+    padding: 10px 1px 1px 10px ;
+    
+}
+#gender{
+    display: flex;
+    padding:20px 100px;
+}
+button{
+    border: 0px;
+    display: block;
+    border-radius: 20px;
+    width: 300px;
+ height: 40px;
+ margin: auto;
+ background-color: #00BBC6;
+}
+#box4>div:nth-child(1){
+    border: 0px solid;
+    
+    text-align: left;
+    height: 35px;
+    border-radius: 20px;
+    padding:5px 5px 5px 5px;
+}
+
+
+#second{
+    border:2px solid red;
+    width: 50%;
+    
+}
+body>div{
+    display: flex;
+    width:100%;
+   
+    justify-content: space-evenly;
+}
+#logo{
+    height: 30px;
+   
+   
+}
