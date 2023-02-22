@@ -1,0 +1,127 @@
+
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    header{
+        width: 1519px;
+        height: 40px;
+        background-color: #363636;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header img{
+        width: 156px;
+        height: 34px;
+        
+    }
+    .BOX{
+        width: 1070px;
+        height: 100vh;
+        /* background-color: coral; */
+       margin-left: 230px;
+       display: flex;
+       gap: 15px;
+    }
+    .container{
+        width: 739px;
+        /* height: 841px; */
+        /* background-color:goldenrod; */
+        
+    }
+    .cart{
+        width: 370px;
+        height: 322px;
+        background-color: blueviolet;
+    }
+    .step{
+        width: 694px;
+        display: flex;
+        gap: 5px;
+       margin: 3px 10px;
+        
+        
+    }
+    .step div{
+        width: 216px;
+        height: 35px;
+        color: #FFFFFF;
+        font-size: 15px;
+        background-color:  #363636;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 5px;
+     
+    }
+    .step span{
+        height: 20px;
+  width: 20px;
+  /* background-color: #FFFFFF; */
+  color: black;
+  border-radius: 50%;
+  display: inline-block;
+
+    }
+    .discount{
+        width: 694px;
+        height: 35px;
+        background-color: #f2f2f2;
+    
+    }
+   
+    .payment{
+        width: 694px;
+        height: 35px;
+        background-color:  #00bac6;
+       
+    }
+    .div3{
+        width: 692px;
+        height: 413px;
+        padding: 0px 0px 40px;
+        display: flex;
+        /* background-color: aliceblue; */
+    }
+    .Option{
+        width: 222px;
+        height: 300px;
+        background-color: blue;
+    }
+    .Option span{
+        width: 222px;
+        height: 51px;
+    background-color:#efefef;
+    text-align: center;
+    display: flex;
+    margin: 0px 0px -1px;
+  padding: 5px 0px 5px 5px;
+  
+    }
+    .TC{
+        width: 709px;
+        height: 25px;
+        /* margin: 0px 0px 10px;
+        padding: 0px 0px 5px; */
+        border-bottom: 1px solid grey;
+    }
+    .TC span{
+        padding-left: 280px;
+
+    }
+    .cancelP{
+        width: 709px;
+        height: 25px;
+        margin: 0px 0px 20px;
+      
+    }
+    .cancelP span:nth-child(2) {
+        margin-left: 450px;
+    }
+    .Img img{
+        width: 709px;
+        height: 122px;
+    }
+   
+
