@@ -21,14 +21,14 @@ body
 .container{
     width: 350px;
     display: flex;
-     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  */
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
     flex-direction: column;
     padding:  50px ;
     border-radius: 20px;
     /* border-top-right-radius:15px;
     border-bottom-right-radius: 15px; */
     /* background: linear-gradient(90deg,#8d36d4,#8a5bab); */
-    /* background-color: white; */
+     background-color: white; 
     align-items: center;
     
 }
