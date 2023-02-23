@@ -1,7 +1,7 @@
 
    
     input{
-        border-radius: 20px;
+        border-radius: 10px;
         border: 0px;
     }
 #box1{
@@ -60,6 +60,7 @@ margin-left: 100px;
 height: 40px;
 width: 170%;
 border: 1px solid;
+padding-left: 15px;
 
 }
 .inp2{
@@ -67,6 +68,8 @@ height: 40px;
 width: 100%;
 border: 1px solid;
 margin-left: 150px;
+padding-left: 15px;
+
 }
 #inp1:hover{
 background-color: rgb(236, 231, 231);
@@ -137,11 +140,21 @@ justify-content: space-between;
 button{
     border: 0px;
     display: block;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 300px;
  height: 40px;
- margin: auto;
+ 
  background-color: #00BBC6;
+}
+#button{
+/* margin-left: 100px; */
+/* margin: auto;
+border: 1px solid red;
+display: flex;
+justify-content: center; */
+position: relative;
+left: 215px;
+bottom: 50px;
 }
 #box4>div:nth-child(1){
     border: 0px solid;
@@ -169,3 +182,18 @@ body>div{
    
    
 }
+#second>div{
+    width:95%;
+    height: 20%;
+    border: 1px solid red;
+    display: flex;
+    margin: auto;
+ 
+   
+}
+#second img{
+    width: 100%;
+    height: 100px;
+   
+}
+
