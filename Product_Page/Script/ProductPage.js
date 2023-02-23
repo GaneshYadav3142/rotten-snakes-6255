@@ -12,7 +12,7 @@ let mulimgarr = [
     imageBg:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7619_24_12_2022.jpg",
     imageFg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e12849-c1-eyeglasses_vincent-chase-vc-e12849-c1-eyeglasses_g_7954.jpg",
     imageModel1:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
     imageModel2:
@@ -105,9 +105,9 @@ let mulimgarr = [
     ProductPrice: 1999,
     qty: 1,
     imageBg:
-      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e13043-c1-eyeglasses_g_7953_3.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-air-la-e11491-c9-eyeglasses_g_7042_21_12_2022.jpg",
     imageFg:
-      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e13043-c1-eyeglasses_g_7954_3.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-air-la-e11491-c10-eyeglasses_g_6023_24_11_2022.jpg",
     imageModel1:
       "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e13043-c1-eyeglasses_7i5a3945lk.jpg",
     imageModel2:
@@ -172,7 +172,7 @@ let mulimgarr = [
     imageBg:
       "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13065-rimless-aviator-tr90-c4-eyegasus_lenskart-air-la-e13065-rimless-aviator-tr90-c4-eyegasus_g_1595_1.jpg",
     imageFg:
-      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13065-rimless-aviator-tr90-c4-eyegasus_lenskart-air-la-e13065-rimless-aviator-tr90-c4-eyegasus_g_1594.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//j/o/john-jacobs-jj-e12341-c1-eyeglasses_john-jacobs-jj-e12341-c1-eyeglasses_j_5333_1.jpg",
     imageModel1:
       "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13065-rimless-aviator-tr90-c4-eyegasus_19_may_male_shoot-426_145729.jpg",
     imageModel2:
@@ -204,7 +204,7 @@ let mulimgarr = [
     imageBg:
       "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11413-fall-rim-rectgle-c-on-c2-eyeglasses_eyeglasses_g_3152.jpg",
     imageFg:
-      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11413-fall-rim-rectgle-c-on-c2-eyeglasses_g_3150.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/1325x636/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11413-fall-rim-rectgle-c-on-c1-eyeglasses_g_3078.jpg",
     imageModel1:
       "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11413-fall-rim-rectgle-c-on-c2-eyeglasses_g_3151.jpg",
     imageModel2:
@@ -268,7 +268,7 @@ let mulimgarr = [
     imageBg:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
     imageFg:
-      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/1325x636/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e12849-c1-eyeglasses_vincent-chase-vc-e12849-c1-eyeglasses_g_7954.jpg",
     imageModel1:
       "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_2.jpg",
     imageModel2:
