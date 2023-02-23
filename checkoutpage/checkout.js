@@ -87,7 +87,7 @@ let paymentPage=document.querySelector("button")
           second.append(card);
 
         })
-        let subtotal=document.("subtotal")
+        //let subtotal=document.("subtotal")
       }
       display(cartdata)
 

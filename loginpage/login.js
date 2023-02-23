@@ -66,7 +66,7 @@ let logInForm = document.querySelector('#login')
                    if(el.password===logInForm.lPassword.value){
                        alert("login successful!");
                       console.log(el.name)
-                       window.location.assign('./homepage.html');
+                       window.location.assign('/homepage.html');
                        localStorage.setItem("user",el.name)
                    }
                    else{
