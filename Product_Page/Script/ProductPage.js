@@ -268,7 +268,7 @@ let mulimgarr = [
     imageBg:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
     imageFg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/1325x636/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e12849-c1-eyeglasses_vincent-chase-vc-e12849-c1-eyeglasses_g_7954.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7619_24_12_2022.jpg",
     imageModel1:
       "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_2.jpg",
     imageModel2:
