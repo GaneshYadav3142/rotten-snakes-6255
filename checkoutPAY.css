@@ -58,12 +58,64 @@
     .step span{
         height: 20px;
   width: 20px;
-  /* background-color: #FFFFFF; */
+  background-color: #FFFFFF;
   color: black;
   border-radius: 50%;
   display: inline-block;
 
     }
+    .details{
+        width: 444px;
+        height: 20px;
+        /* display: flex; */
+     margin-left: 20px;
+        
+    }
+  
+    .details>div span{
+        width: 222px;
+        height: 18px;
+      /* margin-left: 10px; */
+    }
+    .details>div img{
+        width: 222px;
+        height: 18px;
+        margin-left: 120px;
+        margin-top: 12px;
+    }
+  #Card-Nu, #Card-name {
+    width: 444px;
+    height: 24px;
+    padding: 6px 12px;
+    background-color: #FFFFFF;
+    border: .1px solid grey;
+  }
+ 
+  #month-year{
+    width: 190px;
+    height: 24px;
+    padding: 6px 12px;
+ } 
+ #Cvv{
+    width: 160px;
+    height: 24px;
+    padding: 6px 12px;
+    margin-left: 20px;
+ } 
+ .btn-div{
+    width: 444px;
+    height: 83px;
+ }
+ button{
+    width: 223px;
+    height: 43px;
+    background-color: #00BBC6;
+    margin: 12px 0px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+ }
     .discount{
         width: 694px;
         height: 35px;
