@@ -2,18 +2,6 @@
     font-family: "futura std medium";
     
   }
-  @font-face {
-    font-family: "futura std heavy";
-    src: url("/fonts/FuturaStdHeavy.woff") format("woff");
-  }
-  @font-face {
-    font-family: "futura std book";
-    src: url("/fonts/FuturaStdBook.woff") format("woff");
-  }
-  @font-face {
-    font-family: "futura std medium";
-    src: url("/fonts/FuturaStdMedium.woff") format("woff");
-  }
   .innerimg {
     text-align: center;
     color: black;
@@ -82,19 +70,24 @@
     appearance: none;
   }
   .imageBox:hover img {
-    opacity: 0;
+    opacity: 100;
   }
   .box_wrapper {
     width: fit-content;
     height: 100%;
   }
   .box_wrapper:hover .box {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;    height: 94%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+       height: 50%;
     transition: height 0.3s ease-in, box-shadow 0.3s linear;
   }
   .box {
-    width: auto;
-    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    /* min-width: 200px; */
     height: 100%;
     min-height: fit-content;
     transform-origin: 50% 0%;
@@ -103,14 +96,25 @@
   .imageBox {
     width: 70%;
     margin: 0px auto;
+   
   }
   .imageBox img {
     width: 100%;
   }
   .detail_box {
-    padding-inline: 1rem;
+    /* padding-inline: 1rem; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    align-content: left;
+    padding-left: 3rem;
   }
-  
+  .detail_box > p{
+padding: 0;
+margin: 4px;
+  }
   .catagory {
     font-family: "futura std book";
     font-size: 1.05vw;
@@ -139,12 +143,25 @@
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    float: right;
+    /* float: right; */
+  }
+  .sizeBigdiv{
+
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .size {
     opacity: 0;
   }
   .box_wrapper:hover .size {
+    opacity: 1;
+  }
+  .sizeBigdiv{
+    opacity:0;
+  }
+  .box_wrapper:hover .sizeBigdiv{
     opacity: 1;
   }
   .box_wrapper:hover .detail_box {
