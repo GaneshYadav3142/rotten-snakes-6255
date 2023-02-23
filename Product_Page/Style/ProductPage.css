@@ -1,8 +1,8 @@
-/* * {
+* {
     font-family: "futura std medium";
     
-  } */
-  /* @font-face {
+  }
+  @font-face {
     font-family: "futura std heavy";
     src: url("/fonts/FuturaStdHeavy.woff") format("woff");
   }
@@ -13,7 +13,7 @@
   @font-face {
     font-family: "futura std medium";
     src: url("/fonts/FuturaStdMedium.woff") format("woff");
-  } */
+  }
   .innerimg {
     text-align: center;
     color: black;
@@ -89,8 +89,7 @@
     height: 100%;
   }
   .box_wrapper:hover .box {
-    box-shadow: 2px 2px 8px rgb(151, 151, 151);
-    height: 94%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;    height: 94%;
     transition: height 0.3s ease-in, box-shadow 0.3s linear;
   }
   .box {

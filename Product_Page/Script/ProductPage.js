@@ -10,11 +10,11 @@ let mulimgarr = [
     ProductPrice: 10000,
     qty: 1,
     imageBg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7619_24_12_2022.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-lk-e15173-c2-eyeglasses_g_7982_06_01_2023.jpg",
     imageFg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-lk-e15173-c2-eyeglasses_g_7983_06_01_2023.jpg",
     imageModel1:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+    "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-lk-e15173-c2-eyeglasses_g_7983_06_01_2023.jpg",
     imageModel2:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
     FemaleModel1:
@@ -380,7 +380,24 @@ function showAllSpecs(mulimgarr) {
   // console.log(AppendContainer);
 }
 
-/////////////////////////////Filter Part Start/////////////////////////////////////
+/////////////////////////////Filter Part Start///////////////////////////////////////
+
+////////////////////////////Filter By Shape//////////////////////////////////////////
+// FrameBox-1
+function FrameFilter(condition) {
+  // const selectedFrame = document.querySelector('.frame_style')?.value || "";
+  console.log(condition);
+  if (condition) {
+  let filterData = data.filter((ele) =>{
+    return ele.FrameShape == condition.toLowerCase();
+  });
+  // console.log(filterData)
+    showAllSpecs(filterData);
+  } else {
+    const localProducts = JSON.parse(localStorage.getItem("AllProduct")) || [];
+    showAllSpecs(localProducts);
+  }
+}
 
 ////////////////////////////Color Filter Start///////////////////////////////////////////
 //Imparative Method
@@ -425,34 +442,103 @@ function ColorFilter() {
 /////////////////////////////Filter Part End///////////////////////////////////////
 
 ////////////////////////////Sorting Part Start////////////////////////////////////
-let SortPrize = document.getElementById("SortPrize");
-SortPrize.addEventListener("click", sortPrize);
-function sortPrize() {
+
+const SortPrize = document.getElementById("SortPrize");
+
+SortPrize.addEventListener("change", () => {
   const sortOption = SortPrize.value;
-  if (sortOption === "Price Low to High") {
-    data.sort((a, b) => a.ProductPrice - b.ProductPrice);
-  } else if (sortOption === "Price High to Low") {
-    data.sort((a, b) => b.ProductPrice - a.ProductPrice);
-  } else if (sortOption === "Best Sellers") {
-    data.sort((a, b) => b.ProductRating - a.ProductRating);
+  switch (sortOption) {
+    case "Price Low to High":
+      data.sort((a, b) => a.ProductPrice - b.ProductPrice);
+      break;
+    case "Price High to Low":
+      data.sort((a, b) => b.ProductPrice - a.ProductPrice);
+      break;
+    case "Best Sellers":
+      data.sort((a, b) => b.ProductRating - a.ProductRating);
+      break;
   }
-
   showAllSpecs(data);
-}
+});
 
-function rateHightoLow() {
-  data.sort((a, b) => Number(b.ProductRating) - Number(a.ProductRating));
-  showAllSpecs(data);
-}
-
-const Lowtohigh = () => {
-  data.sort((a, b) => (a.ProductPrice > b.ProductPrice ? 1 : -1));
+const sortByRatingDescending = () => {
+  data.sort((a, b) => b.ProductRating - a.ProductRating);
   showAllSpecs(data);
 };
 
-const hightoLow = () => {
-  data.sort((a, b) => (a.ProductPrice < b.ProductPrice ? 1 : -1));
+const sortByPriceAscending = () => {
+  data.sort((a, b) => a.ProductPrice - b.ProductPrice);
   showAllSpecs(data);
 };
+
+const sortByPriceDescending = () => {
+  data.sort((a, b) => b.ProductPrice - a.ProductPrice);
+  showAllSpecs(data);
+};
+
+
+
+// let SortPrize = document.getElementById("SortPrize");
+// SortPrize.addEventListener("click", sortPrize);
+// function sortPrize() {
+//   const sortOption = SortPrize.value;
+//   if (sortOption === "Price Low to High") {
+//     data.sort((a, b) => a.ProductPrice - b.ProductPrice);
+//   } else if (sortOption === "Price High to Low") {
+//     data.sort((a, b) => b.ProductPrice - a.ProductPrice);
+//   } else if (sortOption === "Best Sellers") {
+//     data.sort((a, b) => b.ProductRating - a.ProductRating);
+//   }
+//   showAllSpecs(data);
+// }
+// function rateHightoLow() {
+//   data.sort((a, b) => Number(b.ProductRating) - Number(a.ProductRating));
+//   showAllSpecs(data);
+// }
+// const Lowtohigh = () => {
+//   data.sort((a, b) => (a.ProductPrice > b.ProductPrice ? 1 : -1));
+//   showAllSpecs(data);
+// };
+// const hightoLow = () => {
+//   data.sort((a, b) => (a.ProductPrice < b.ProductPrice ? 1 : -1));
+//   showAllSpecs(data);
+// };
 
 ////////////////////////////Sorting Part End///////////////////////////////////
+
+
+///////////////////////////Search Part Start///////////////////////////////////
+
+//////////////////////////Imparative method///////////////////////////////////
+
+
+document.getElementById("id of search icon").addEventListener("click", () => {
+  const searchInput = document.getElementById("id of input box").value.split(" ")[0].toLowerCase();
+  const productData = JSON.parse(localStorage.getItem("AllProduct"));
+  const filteredProductData = productData.filter(item => item.ProductCategory.split(" ")[0].toLowerCase() === searchInput || item.SpecColor === searchInput || item.FrameShape === searchInput);
+  if (filteredProductData.length) showProducts(filteredProductData);
+});
+
+
+
+//////////////////////////Declarative method////////////////////////////////
+
+
+// const searchFilterButton = document.getElementById("id of search icon");
+// searchFilterButton.addEventListener("click", handleSearchInput);
+// function handleSearchInput() {
+//   const searchInput = document.getElementById("id of input box").value.split(" ")[0].toLowerCase();
+//   const productData = JSON.parse(localStorage.getItem("AllProduct"));
+//   const filteredProductData = productData.filter(item => {
+//     return item.ProductCategory.split(" ")[0].toLowerCase() === searchInput || item.SpecColor === searchInput || item.FrameShape === searchInput;
+//   });
+//   console.log(filteredProductData);
+//   if (filteredProductData.length != 0) {
+//     showProducts(filteredProductData);
+//   } else {
+//     return;
+//   }
+// }
+
+
+//////////////////////////Search Part End//////////////////////////////////////
