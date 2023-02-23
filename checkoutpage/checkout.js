@@ -1,6 +1,6 @@
-let paymentPage=document.querySelector("button")
+let paymentPage=document.querySelector("#Continuebtn")
     paymentPage.addEventListener("click",()=>{
-        window.location.assign("./paymentpage.html")
+        window.location.assign("/rotten-snakes-6255/checkoutPAY.html")
     })
 
   let data=[ {
@@ -88,8 +88,10 @@ let paymentPage=document.querySelector("button")
 
         })
         //let subtotal=document.("subtotal")
+        
       }
       display(cartdata)
+
 
 
 

@@ -1,6 +1,7 @@
 let mulimgarr = [
   {
     SpecColor: "black",
+    unit:1,
     SpecSize: "Medium",
     ProductCategory: "Lenskart Air",
     FrameShape: "round",
@@ -32,6 +33,7 @@ let mulimgarr = [
   },
   {
     SpecColor: "blue",
+    unit:1,
     SpecSize: "Narrow",
     ProductCategory: "Lenskart Air Manoj",
     FrameShape: "wayfarer",
@@ -65,6 +67,7 @@ let mulimgarr = [
 
   {
     SpecColor: "blue",
+    unit:1,
     SpecSize: "Medium",
     ProductCategory: "Vincent Chase",
     FrameShape: "rectangle",
@@ -96,6 +99,7 @@ let mulimgarr = [
   },
   {
     SpecColor: "black",
+    unit:1,
     SpecSize: "Extra Narrow",
     ProductCategory: "Vincent Chase",
     FrameShape: "round",
@@ -128,6 +132,7 @@ let mulimgarr = [
 
   {
     SpecColor: "brown",
+    unit:1,
     SpecSize: "Narrow",
     ProductCategory: "Vincent Chase",
     FrameShape: "cat eye",
@@ -160,6 +165,7 @@ let mulimgarr = [
 
   {
     SpecColor: "brown",
+    unit:1,
     SpecSize: "Medium",
     ProductCategory: "Vincent Chase",
     FrameShape: "aviator",
@@ -193,6 +199,7 @@ let mulimgarr = [
 
   {
     SpecColor: "brown",
+    unit:1,
     SpecSize: "Extra Wide",
     ProductCategory: "Lenskart Air",
     FrameShape: "rectangle",
@@ -225,6 +232,7 @@ let mulimgarr = [
 
   {
     SpecColor: "blue",
+    unit:1,
     SpecSize: "Narrow",
     ProductCategory: "Lenskart Air",
     FrameShape: "rectangle",
@@ -258,6 +266,7 @@ let mulimgarr = [
   {
     SpecColor: "black",
     SpecSize: "Medium",
+    unit:1,
     ProductCategory: "Lenskart Air",
     FrameShape: "round",
     ProductRating: "4.2",
