@@ -165,7 +165,9 @@
 img {
     width: 100%;
 }
-/* --------------------------> this is footer  */
+/* --------------------------> this is end of homepage => (header)  */
+/* there is another css file for middle section for the website's home page ===>*/
+/* --------------------------> this is start of homepage => (footer)  */
 .footer {
     background-color: #000042;
     color: white;
