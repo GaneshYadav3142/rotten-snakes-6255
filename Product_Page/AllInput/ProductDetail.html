@@ -12,6 +12,7 @@
     <div class="product_detail_wrapper">
       <div class="product_images" id="_images"></div>
       <div class="product_details" id="product_details"></div>
+      <div class="Add To Cart"></div>
     </div>
   </body>
 </html>
@@ -93,73 +94,22 @@
     images.append(RowData);
     // images.addEventListener("")
     // console.log(ele);
+
+    ///////////////////All Category///////////////////////
+
+    let name = document.createElement("p");
+      name.setAttribute("class", "name");
+      name.innerText = `${element.productName}`;
+
+    let size = document.createElement("p");
+      size.setAttribute("class", "size");
+      size.innerHTML = `Size: ${element.size}`;
+
+      let price = document.createElement("p");
+      price.setAttribute("class", "price");
+      price.innerText = `₹${element.price}`;
+
+      
   }
 
-  // ShowProduct.forEach((ele) => {
-  // let a1 = document.createElement("div");
-  // a1.setAttribute("class", "Wr_images");
-  // let img1 = document.createElement("img");
-  // img1.src = ele.FrontImage;
-  // a1.appendChild(img1);
-
-  //   let a2 = document.createElement("div");
-  //   a2.setAttribute("class", "Wr_images");
-  //   let img2 = document.createElement("img");
-  //   img2.src = ele.BackgroundImage;
-  //   a2.appendChild(img2);
-
-  //   let a3 = document.createElement("div");
-  //   a3.setAttribute("class", "Wr_images");
-  //   let img3 = document.createElement("img");
-  //   img3.src = ele.imageModel1;
-  //   a3.appendChild(img3);
-  //   //console.log(img3);
-  //   let a10 = document.createElement("div");
-  //   a10.setAttribute("class", "Wr_images");
-  //   let img10 = document.createElement("img");
-  //   img10.src = ele.imageModel2;
-  //   a10.appendChild(img10);
-  //   //console.log(img3);
-  //   let a4 = document.createElement("div");
-  //   a4.setAttribute("class", "Wr_images");
-  //   let img4 = document.createElement("img");
-  //   img4.src = ele.FemaleModel1;
-  //   a4.appendChild(img4);
-
-  //   let a5 = document.createElement("div");
-  //   a5.setAttribute("class", "Wr_images");
-  //   let img5 = document.createElement("img");
-  //   img5.src = ele.FemaleModel2;
-  //   a5.appendChild(img5);
-
-  //   let a6 = document.createElement("div");
-  //   a6.setAttribute("class", "Wr_images");
-  //   let img6 = document.createElement("img");
-  //   img6.src = ele.imageG1;
-  //   a6.appendChild(img6);
-
-  //   let a7 = document.createElement("div");
-  //   a7.setAttribute("class", "Wr_images");
-  //   let img7 = document.createElement("img");
-  //   img7.src = ele.imageG2;
-  //   a7.appendChild(img7);
-
-  //   let a8 = document.createElement("div");
-  //   a8.setAttribute("class", "Wr_images");
-  //   let img8 = document.createElement("img");
-  //   img8.src = ele.imageG3;
-  //   a8.appendChild(img8);
-
-  //   let a9 = document.createElement("div");
-  //   a9.setAttribute("class", "Wr_images");
-  //   let img9 = document.createElement("img");
-  //   img9.src = ele.imageG4;
-  //   a9.appendChild(img9);
-
-  //   RowData.append(a2, a1, a3, a10, a4, a5, a6, a7, a8, a9);
-  //   singleItem.append(RowData)
-  //   images.append(RowData);
-  //   // images.addEventListener("")
-  //   // console.log(ele);
-  // });
 </script>
