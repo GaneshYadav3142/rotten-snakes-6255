@@ -5,18 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./checkoutPAY.css">
-    <link rel="stylesheet" href="./checkoutPAY.js">
-    <title>checkOut</title>
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> Checkout Page</title>
 </head>
 
 <body>
+    <!-- header -->
     <header>
-        <img src="./homepage/logo/logo.png" alt="">
+        <img src="./checkoutpageIMG/logo.png" alt="">
 
     </header>
+    <!-- main page -->
  <div class="BOX">
 
     <div class="container">
+        <!-- first arrow size div -->
             <div class="step">
         <div class="step div">    <span>1</span>
           Mobile</div> 
@@ -27,11 +32,15 @@
         
             </div>
             <br>
+            <!-- Discount Div -->
            <div class="discount"><span>PROMOTIONAL DISCOUNT</span></div>
            <br>
+           <!-- Payment text DIV -->
             <div class="payment"><span>PAYMENT OPTIONS</span>
             </div>
+            <!-- parent div for payment option and chossen option payment details required -->
        <div class="div3">
+
         <div class="Option">
             <span style="background-color: #ffffff;"> Credit/Debit Card</span> 
             <span>BHIM UPI / Phone Pe</span>
@@ -44,15 +53,18 @@
             <img src="./checkoutpageIMG/CheckoutStrip.png" alt="">
            </div>
            <br>
-         <form action="">
-            <input type="text" name="" id="Card-Nu" placeholder="Enter Card Number"><br><br>
-            <div class="m-cvv"> <input type="text" name="" id="month-year" placeholder="MM/YYYY">
-                <input type="text" name="" id="Cvv" placeholder="CVV"></div><br>
-                <input type="text" name="" id="Card-name" placeholder="Cardholder Name">
+           <!-- form for card details -->
+         <form action="" >   
+            <i class="fa light fa-credit-card" ></i>
+            <input  type="text" name="" id="Card-Nu" placeholder="Enter Card Number" required><br><br>
+            <div class="m-cvv"> <input type="text" name="" id="month-year" placeholder="MM/YYYY" required>
+                <i class="fa duotone fa-circle-exclamation" class="CVV-i"></i>
+                <input type="text" name="" id="Cvv" placeholder="CVV" required></div><br>
+                <input type="text" name="" id="Card-name" placeholder="Cardholder Name" required>
          </form>
          <br>
            <div class="RBI"><span>Secure this card as per RBI guidelines <a href="">Learn More</a></span></div><br>
-           <div class="btn-div"><button >PLACE ORDER</button></div>
+           <div class="btn-div"><button  class="button">PLACE ORDER</button></div>
         </div>
 
        </div>
@@ -64,7 +76,7 @@
         <span style="font-size: small;">Cancellation Policy <a href="">></a></span>
        </div>
        <div class="Img">
-        <img src="/rotten-snakes-6255/checkoutpageIMG/all-assurance-offering.png" alt="">
+        <img src="./checkoutpageIMG/all-assurance-offering.png" alt="">
        </div>
        
        
@@ -77,4 +89,5 @@
  </div>
     
 </body>
+<script src="./checkoutPAY.js"></script>
 </html>
