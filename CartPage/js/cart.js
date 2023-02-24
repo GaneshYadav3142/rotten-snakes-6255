@@ -12,8 +12,10 @@ function onload() {
     Emptycart.innerHTML = `<div id="empty"><p >Your shopping cart is empty !</p>
         <a href="/rotten-snakes-6255/homepage/index.html"><button>Continue Shopping</button></a><div>`;
   } else {
+
+
     // function cartItems(arr) {
-    //   cart.innerHTML = "";
+    //   cax mrt.innerHTML = "";
     //   // creating 2 divs in the cart page
     //   cart.innerHTML = `<div id="cart_list"></div>
     //         <div id="Bill-details"></div>`;
