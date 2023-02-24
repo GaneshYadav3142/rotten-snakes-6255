@@ -1,175 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-        .product_detail_wrapper {
-  width: 96%;
-  height: fit-content;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 67% 30%;
-  grid-gap: 3%;
-}
-
-.row {
-  padding: 10px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 3%;
-}
-.img_wrapper {
-  height: fit-content;
-  border: 1px solid rgba(175, 175, 175, 0.301);
-  border-radius: 5px;
-  overflow: hidden;
-}
-.img_wrapper img {
-  width: 100%;
-  border-radius: 5px;
-}
-.img_wrapper img:hover {
-  transform: scale(1.1);
-  transition: transform 0.8s ease-out;
-}
-.detail * {
-  line-height: 30px;
-}
-.catagory {
-  font-family: "futura std book";
-  color: grey;
-}
-.name {
-  font-family: "futura std book";
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-.size {
-  font-family: "futura std book";
-  color: grey;
-  font-size: small;
-}
-.price {
-  font-family: "futura std book";
-  font-size: x-large;
-  font-weight: bolder;
-  color: rgb(50, 156, 146);
-  margin-bottom: -10px;
-}
-.frame_lens {
-  font-family: "futura std book";
-  font-size: small;
-  color: rgb(63, 63, 63);
-}
-.color {
-  padding-top: 10px;
-  width: 55px;
-  height: 30px;
-  display: flex;
-  justify-content: space-between;
-}
-.red {
-  width: 25px;
-  height: 25px;
-  background-color: black;
-  border-radius: 50%;
-}
-.blue {
-  width: 25px;
-  height: 25px;
-  background-color: blue;
-  border-radius: 50%;
-}
-
-.power {
-  font-family: "futura std medium";
-  color: rgb(66, 66, 66);
-}
-.power_grid form {
-  display: grid;
-  grid-template-columns: 47% 47%;
-  grid-gap: 3%;
-  margin-bottom: 15px;
-}
-.power_grid div {
-  border: 1px solid rgba(128, 128, 128, 0.459);
-  border-radius: 10px;
-  font-size: small;
-  word-wrap: normal;
-  font-family: "futura std book";
-  padding: 1rem;
-}
-.power_grid div label {
-  padding: 0px 5px;
-}
-.btn {
-  background-color: rgb(0, 186, 198);
-  border: none;
-  width: 96%;
-  margin-left: 5px;
-  text-align: center;
-  border-radius: 5px;
-  padding: 10px 0px;
-}
-.btn p {
-  line-height: 15px;
-  letter-spacing: 1.5px;
-  color: white;
-  font-family: "futura std medium";
-}
-.btn span {
-  font-size: smaller;
-}
-
-/* popUp css */
-.addCartPopUp {
-  font-family: "futura std heavy";
-  width: 96%;
-  margin: auto;
-  background-color: white;
-  opacity: 0;
-  border-radius: 10px;
-}
-.addCartPopUp_wrapper {
-  position: fixed;
-  z-index: 100;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.651);
-  transform: translateY(-200%);
-}
-.addCartPopUpX {
-  font-family: "futura std heavy";
-  width: 96%;
-  margin: auto;
-  background-color: white;
-  opacity: 0;
-  border-radius: 10px;
-}
-.addCartPopUp_wrapperX {
-  position: fixed;
-  z-index: 100;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.651);
-  transform: translateY(-200%);
-}
-
-.addCartPopUp_display {
-  transform: translateY(0%);
-  opacity: 1;
-  transition: transform 0.3s ease-out, opacity 0.2s linear;
-}
-    </style>
-</head>
-<body>
+    <link rel="stylesheet" href="../Style/ProductDetail.css" />
+    <style></style>
+  </head>
+  <body>
     <div class="product_detail_wrapper">
-        <div class="product_images" id="product_images"></div>
-        <div class="product_details" id="product_details"></div>
-      </div>
-</body>
+      <div class="product_images" id="_images"></div>
+      <div class="product_details" id="product_details"></div>
+    </div>
+  </body>
 </html>
+<script>
+  // let ShowProduct = JSON.parse(localStorage.getItem("AllProduct"));
+  let images = document.getElementById("_images");
+  let ProdeuctDetailBox = document.getElementById("product_details");
+
+  let RowData = document.createElement("div");
+  RowData.setAttribute("class", "RowData");
+
+  let singleItem = JSON.parse(localStorage.getItem("singleItem"));
+
+  appendData(singleItem);
+
+  function appendData(ele) {
+    let a1 = document.createElement("div");
+    a1.setAttribute("class", "Wr_images");
+    let img1 = document.createElement("img");
+    img1.src = ele.FrontImage;
+    a1.appendChild(img1);
+
+    let a2 = document.createElement("div");
+    a2.setAttribute("class", "Wr_images");
+    let img2 = document.createElement("img");
+    img2.src = ele.BackgroundImage;
+    a2.appendChild(img2);
+
+    let a3 = document.createElement("div");
+    a3.setAttribute("class", "Wr_images");
+    let img3 = document.createElement("img");
+    img3.src = ele.imageModel1;
+    a3.appendChild(img3);
+    //console.log(img3);
+    let a10 = document.createElement("div");
+    a10.setAttribute("class", "Wr_images");
+    let img10 = document.createElement("img");
+    img10.src = ele.imageModel2;
+    a10.appendChild(img10);
+    //console.log(img3);
+    let a4 = document.createElement("div");
+    a4.setAttribute("class", "Wr_images");
+    let img4 = document.createElement("img");
+    img4.src = ele.FemaleModel1;
+    a4.appendChild(img4);
+
+    let a5 = document.createElement("div");
+    a5.setAttribute("class", "Wr_images");
+    let img5 = document.createElement("img");
+    img5.src = ele.FemaleModel2;
+    a5.appendChild(img5);
+
+    let a6 = document.createElement("div");
+    a6.setAttribute("class", "Wr_images");
+    let img6 = document.createElement("img");
+    img6.src = ele.imageG1;
+    a6.appendChild(img6);
+
+    let a7 = document.createElement("div");
+    a7.setAttribute("class", "Wr_images");
+    let img7 = document.createElement("img");
+    img7.src = ele.imageG2;
+    a7.appendChild(img7);
+
+    let a8 = document.createElement("div");
+    a8.setAttribute("class", "Wr_images");
+    let img8 = document.createElement("img");
+    img8.src = ele.imageG3;
+    a8.appendChild(img8);
+
+    let a9 = document.createElement("div");
+    a9.setAttribute("class", "Wr_images");
+    let img9 = document.createElement("img");
+    img9.src = ele.imageG4;
+    a9.appendChild(img9);
+
+    RowData.append(a2, a1, a3, a10, a4, a5, a6, a7, a8, a9);
+    // singleItem.append(RowData);
+    images.append(RowData);
+    // images.addEventListener("")
+    // console.log(ele);
+  }
+
+  // ShowProduct.forEach((ele) => {
+  // let a1 = document.createElement("div");
+  // a1.setAttribute("class", "Wr_images");
+  // let img1 = document.createElement("img");
+  // img1.src = ele.FrontImage;
+  // a1.appendChild(img1);
+
+  //   let a2 = document.createElement("div");
+  //   a2.setAttribute("class", "Wr_images");
+  //   let img2 = document.createElement("img");
+  //   img2.src = ele.BackgroundImage;
+  //   a2.appendChild(img2);
+
+  //   let a3 = document.createElement("div");
+  //   a3.setAttribute("class", "Wr_images");
+  //   let img3 = document.createElement("img");
+  //   img3.src = ele.imageModel1;
+  //   a3.appendChild(img3);
+  //   //console.log(img3);
+  //   let a10 = document.createElement("div");
+  //   a10.setAttribute("class", "Wr_images");
+  //   let img10 = document.createElement("img");
+  //   img10.src = ele.imageModel2;
+  //   a10.appendChild(img10);
+  //   //console.log(img3);
+  //   let a4 = document.createElement("div");
+  //   a4.setAttribute("class", "Wr_images");
+  //   let img4 = document.createElement("img");
+  //   img4.src = ele.FemaleModel1;
+  //   a4.appendChild(img4);
+
+  //   let a5 = document.createElement("div");
+  //   a5.setAttribute("class", "Wr_images");
+  //   let img5 = document.createElement("img");
+  //   img5.src = ele.FemaleModel2;
+  //   a5.appendChild(img5);
+
+  //   let a6 = document.createElement("div");
+  //   a6.setAttribute("class", "Wr_images");
+  //   let img6 = document.createElement("img");
+  //   img6.src = ele.imageG1;
+  //   a6.appendChild(img6);
+
+  //   let a7 = document.createElement("div");
+  //   a7.setAttribute("class", "Wr_images");
+  //   let img7 = document.createElement("img");
+  //   img7.src = ele.imageG2;
+  //   a7.appendChild(img7);
+
+  //   let a8 = document.createElement("div");
+  //   a8.setAttribute("class", "Wr_images");
+  //   let img8 = document.createElement("img");
+  //   img8.src = ele.imageG3;
+  //   a8.appendChild(img8);
+
+  //   let a9 = document.createElement("div");
+  //   a9.setAttribute("class", "Wr_images");
+  //   let img9 = document.createElement("img");
+  //   img9.src = ele.imageG4;
+  //   a9.appendChild(img9);
+
+  //   RowData.append(a2, a1, a3, a10, a4, a5, a6, a7, a8, a9);
+  //   singleItem.append(RowData)
+  //   images.append(RowData);
+  //   // images.addEventListener("")
+  //   // console.log(ele);
+  // });
+</script>

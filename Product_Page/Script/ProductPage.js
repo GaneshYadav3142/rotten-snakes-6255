@@ -15,7 +15,7 @@ let mulimgarr = [
     FrontImage:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-lk-e15173-c2-eyeglasses_g_7983_image_pla_06_01_2023.jpg",
     imageModel1:
-    "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/gunmetal-black-full-rim-round-lenskart-studio-indian-accent-lk-e15173-c2-eyeglasses_30_jan_m-f_indian_accent203584_205368_31_01_2023.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/gunmetal-black-full-rim-round-lenskart-studio-indian-accent-lk-e15173-c2-eyeglasses_30_jan_m-f_indian_accent203584_205368_31_01_2023.jpg",
     imageModel2:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/gunmetal-black-full-rim-round-lenskart-studio-indian-accent-lk-e15173-c2-eyeglasses_30_jan_m-f_indian_accent203581_205368_31_01_2023.jpg",
     FemaleModel1:
@@ -265,7 +265,11 @@ let mulimgarr = [
     id: 8,
     ProductPrice: 999,
     qty: 1,
-
+ 
+    BackgroundImage:
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+    FrontImage:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930.jpg",
     imageModel1:
       "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_2.jpg",
     imageModel2:
@@ -284,6 +288,39 @@ let mulimgarr = [
       "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930_Image_PLA.jpg",
   },
 
+  {
+    SpecColor: "black",
+    SpecSize: "Medium",
+    ProductCategory: "Lenskart Air",
+    FrameShape: "round",
+    ProductRating: "4.2",
+    ProductTitle: "Black Full Rim Round Eyeglasses",
+    id: 9,
+    ProductPrice: 999,
+    qty: 1,
+    BackgroundImage:
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+    FrontImage:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930.jpg",
+
+
+    imageModel1:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_2.jpg",
+    imageModel2:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_1.jpg",
+    FemaleModel1:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_19_march_female8297_lk_.jpg",
+    FemaleModel2:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_19_march_female8297_lk.jpg",
+    imageG1:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9932.jpg",
+    imageG2:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9933.jpg",
+    imageG3:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9935.jpg",
+    imageG4:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930_Image_PLA.jpg",
+  },
 
   {
     SpecColor: "black",
@@ -317,7 +354,6 @@ let mulimgarr = [
       "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930_Image_PLA.jpg",
   },
 
-
   {
     SpecColor: "black",
     SpecSize: "Medium",
@@ -349,7 +385,6 @@ let mulimgarr = [
     imageG4:
       "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930_Image_PLA.jpg",
   },
-
 
   {
     SpecColor: "black",
@@ -383,7 +418,6 @@ let mulimgarr = [
       "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930_Image_PLA.jpg",
   },
 
-
   {
     SpecColor: "black",
     SpecSize: "Medium",
@@ -416,7 +450,6 @@ let mulimgarr = [
       "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930_Image_PLA.jpg",
   },
 
-
   {
     SpecColor: "black",
     SpecSize: "Medium",
@@ -448,8 +481,6 @@ let mulimgarr = [
     imageG4:
       "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930_Image_PLA.jpg",
   },
-
-  
 ];
 
 console.log(mulimgarr);
@@ -487,31 +518,34 @@ function showAllSpecs(mulimgarr) {
 
       let imageBox = document.createElement("div");
       imageBox.setAttribute("class", "imageBox");
-      imageBox.onclick = function () {
-        productDetails(ele);
-      };
+      // imageBox.onclick = function () {
+      //   productDetails(ele);
+      // };
 
       // imageBox.style.background = `url(${ele.BackgroundImage})no-repeat`;
       // imageBox.style.backgroundSpecSize = "100%";
 
       let image = document.createElement("img");
       image.src = `${ele.FrontImage}`;
-      image.style.height='250px'
-      image.style.width='250px'
-      image.style.objectFit='contain'
-      imageBox.style.width='auto'
-      box.style.height='auto'
+      image.style.height = "250px";
+      image.style.width = "250px";
+      image.style.objectFit = "contain";
+      imageBox.style.width = "auto";
+      box.style.height = "auto";
 
-      imageBox.addEventListener("mouseenter",()=>{
+      imageBox.addEventListener("mouseenter", () => {
         // console.log(e)
         // console.log("Angur")
-        image.src=ele.BackgroundImage
+        image.src = ele.BackgroundImage;
         imageBox.appendChild(image);
-      })
+      });
+      imageBox.onclick = function () {
+        showProductDetails(ele);
+      };
 
-      imageBox.addEventListener("mouseleave",() => {
+      imageBox.addEventListener("mouseleave", () => {
         // console.log("Wasadya")
-        image.src=ele.FrontImage
+        image.src = ele.FrontImage;
         imageBox.appendChild(image);
       });
       imageBox.appendChild(image);
@@ -521,8 +555,7 @@ function showAllSpecs(mulimgarr) {
       let detail = document.createElement("div");
       detail.setAttribute("class", "detail_box");
       detail.onclick = function () {
-        // productDetails(element); // working on progress
-        // console.log("will be updated soon");
+        showProductDetails(ele);
       };
 
       let ProductCategory = document.createElement("p");
@@ -537,8 +570,8 @@ function showAllSpecs(mulimgarr) {
       ProductPrice.setAttribute("class", "price");
       ProductPrice.innerText = `₹${ele.ProductPrice}`;
 
-      let newDiv=document.createElement("div")
-      newDiv.setAttribute("class","sizeBigdiv")
+      let newDiv = document.createElement("div");
+      newDiv.setAttribute("class", "sizeBigdiv");
       let SpecSize = document.createElement("div");
       SpecSize.setAttribute("class", "size");
       SpecSize.innerHTML = `Size: <b>${ele.SpecSize}</b>`;
@@ -546,10 +579,14 @@ function showAllSpecs(mulimgarr) {
       let SpecColor = document.createElement("div");
       SpecColor.setAttribute("class", "pdtclr");
       SpecColor.style.backgroundColor = ele.SpecColor;
-      newDiv.append(SpecSize,SpecColor)
+      newDiv.append(SpecSize, SpecColor);
       // SpecSize.appendChild(SpecColor);
       // console.log(SpecSize);
       detail.append(ProductCategory, ProductRating, ProductPrice, newDiv);
+
+      box.addEventListener("click", () => {
+        localStorage.setItem("singleItem", JSON.stringify(ele));
+      });
 
       box.appendChild(detail);
       // console.log(box);
@@ -564,6 +601,12 @@ function showAllSpecs(mulimgarr) {
   // console.log(AppendContainer);
 }
 
+function showProductDetails(ele) {
+  let emparr = [];
+  emparr.push(ele);
+  localStorage.setItem("ShowProductDetails", JSON.stringify(emparr));
+  window.location.href = "../AllInput/ProductDetail.html";
+}
 /////////////////////////////Filter Part Start///////////////////////////////////////
 
 ////////////////////////////Filter By Shape//////////////////////////////////////////
@@ -572,10 +615,10 @@ function FrameFilter(condition) {
   // const selectedFrame = document.querySelector('.frame_style')?.value || "";
   console.log(condition);
   if (condition) {
-  let filterData = data.filter((ele) =>{
-    return ele.FrameShape == condition.toLowerCase();
-  });
-  // console.log(filterData)
+    let filterData = data.filter((ele) => {
+      return ele.FrameShape == condition.toLowerCase();
+    });
+    // console.log(filterData)
     showAllSpecs(filterData);
   } else {
     const localProducts = JSON.parse(localStorage.getItem("AllProduct")) || [];
@@ -660,8 +703,6 @@ const sortByPriceDescending = () => {
   showAllSpecs(data);
 };
 
-
-
 // let SortPrize = document.getElementById("SortPrize");
 // SortPrize.addEventListener("click", sortPrize);
 // function sortPrize() {
@@ -690,11 +731,9 @@ const sortByPriceDescending = () => {
 
 ////////////////////////////Sorting Part End///////////////////////////////////
 
-
 ///////////////////////////Search Part Start///////////////////////////////////
 
 //////////////////////////Imparative method///////////////////////////////////
-
 
 // document.getElementById("id of search icon").addEventListener("click", () => {
 //   const searchInput = document.getElementById("id of input box").value.split(" ")[0].toLowerCase();
@@ -703,10 +742,7 @@ const sortByPriceDescending = () => {
 //   if (filteredProductData.length) showProducts(filteredProductData);
 // });
 
-
-
 //////////////////////////Declarative method////////////////////////////////
-
 
 // const searchFilterButton = document.getElementById("id of search icon");
 // searchFilterButton.addEventListener("click", handleSearchInput);
@@ -723,6 +759,5 @@ const sortByPriceDescending = () => {
 //     return;
 //   }
 // }
-
 
 //////////////////////////Search Part End//////////////////////////////////////
