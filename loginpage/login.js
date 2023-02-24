@@ -44,7 +44,7 @@ let logInForm = document.querySelector('#login')
               user=userDB[userDB.length-1].name
                localStorage.setItem('users',JSON.stringify(userDB));
                alert('Registered successfully!')
-               window.location.assign("./productpage.html")
+               window.location.assign("/rotten-snakes-6255/homepage/index.html")
                localStorage.setItem("user",userDB[userDB.length-1].name)
            }
        }
@@ -66,7 +66,7 @@ let logInForm = document.querySelector('#login')
                    if(el.password===logInForm.lPassword.value){
                        alert("login successful!");
                       console.log(el.name)
-                       window.location.assign('./homepage.html');
+                       window.location.assign('/rotten-snakes-6255/homepage/index.html');
                        localStorage.setItem("user",el.name)
                    }
                    else{

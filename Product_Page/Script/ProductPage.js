@@ -1,50 +1,52 @@
 let mulimgarr = [
   {
     SpecColor: "black",
+    unit:1,
     SpecSize: "Medium",
     ProductCategory: "Lenskart Air",
-    FrameShape: "round",
+    FrameShape: "rectangle",
     ProductRating: "4.6",
     ProductTitle: "Black Full Rim Round Eyeglasses",
     id: 0,
     ProductPrice: 10000,
     qty: 1,
-    imageBg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7619_24_12_2022.jpg",
-    imageFg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+    BackgroundImage:
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-lk-e15173-c2-eyeglasses_g_7988_06_01_2023.jpg",
+    FrontImage:
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-lk-e15173-c2-eyeglasses_g_7983_image_pla_06_01_2023.jpg",
     imageModel1:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+    "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/gunmetal-black-full-rim-round-lenskart-studio-indian-accent-lk-e15173-c2-eyeglasses_30_jan_m-f_indian_accent203584_205368_31_01_2023.jpg",
     imageModel2:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/gunmetal-black-full-rim-round-lenskart-studio-indian-accent-lk-e15173-c2-eyeglasses_30_jan_m-f_indian_accent203581_205368_31_01_2023.jpg",
     FemaleModel1:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/gunmetal-black-full-rim-round-lenskart-studio-indian-accent-lk-e15173-c2-eyeglasses_30_jan_m-f_indian_accent204264_02_feb_23.jpg",
     FemaleModel2:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
     imageG1:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-lk-e15173-c2-eyeglasses_g_7985_06_01_2023.jpg",
     imageG2:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-lk-e15173-c2-eyeglasses_g_7986_06_01_2023.jpg",
     imageG3:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-lk-e15173-c2-eyeglasses_g_7988_06_01_2023.jpg",
     imageG4:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-lk-e15173-c2-eyeglasses_g_7983_image_pla_06_01_2023.jpg",
   },
   {
     SpecColor: "blue",
+    unit:1,
     SpecSize: "Narrow",
     ProductCategory: "Lenskart Air Manoj",
-    FrameShape: "wayfarer",
+    FrameShape: "geometric",
     ProductRating: "4.5",
     ProductTitle: " Dark Blue Full Rim Wayfarer Eyeglasses",
     id: 1,
     ProductPrice: 2500,
     qty: 1,
 
-    imageBg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-lk-e15161-c2-eyeglasses_g_7967_06_01_2023.jpg",
-    imageFg:
-      " https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11420-fall-rim-wayfarer-c-on-c2-eyeglasses_eyeglasses_g_3093_1.jpg",
+    BackgroundImage:
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/blue-transparent-blue-black-full-rim-aviator-lenskart-air-flex-la-e11483-l-c3-eyeglasses_g_6871_13_dec_2022.jpg",
+    FrontImage:
+      " https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/blue-transparent-blue-black-full-rim-aviator-lenskart-air-flex-la-e11483-l-c3-eyeglasses_g_6872_13_dec_2022.jpg",
     imageModel1:
       "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11420-fall-rim-wayfarer-c-on-c2-eyeglasses_untitled_session1837.jpg.jpg",
     imageModel2:
@@ -54,17 +56,18 @@ let mulimgarr = [
     FemaleModel2:
       "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11420-fall-rim-wayfarer-c-on-c2-eyeglasses_8_march_female6511.jpg",
     imageG1:
-      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11420-fall-rim-wayfarer-c-on-c2-eyeglasses_g_3091_1.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/blue-transparent-blue-black-full-rim-aviator-lenskart-air-flex-la-e11483-l-c3-eyeglasses_g_6873_13_dec_2022.jpg",
     imageG2:
-      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11420-fall-rim-wayfarer-c-on-c2-eyeglasses_g_3094_2.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/blue-transparent-blue-black-full-rim-aviator-lenskart-air-flex-la-e11483-l-c3-eyeglasses_g_6874_13_dec_2022.jpg",
     imageG3:
-      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11420-fall-rim-wayfarer-c-on-c2-eyeglasses_g_3094_1.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/blue-transparent-blue-black-full-rim-aviator-lenskart-air-flex-la-e11483-l-c3-eyeglasses_g_6876_13_dec_2022.jpg",
     imageG4:
-      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11420-fall-rim-wayfarer-c-on-c2-eyeglasses_g_3095_1.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/blue-transparent-blue-black-full-rim-aviator-lenskart-air-flex-la-e11483-l-c3-eyeglasses_g_6872_image_pla_13_dec_2022.jpg",
   },
 
   {
     SpecColor: "blue",
+    unit:1,
     SpecSize: "Medium",
     ProductCategory: "Vincent Chase",
     FrameShape: "rectangle",
@@ -73,9 +76,9 @@ let mulimgarr = [
     id: 2,
     ProductPrice: 999,
     qty: 1,
-    imageBg:
+    BackgroundImage:
       "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e12404-c2-eyeglasses_g_6328.jpg",
-    imageFg:
+    FrontImage:
       "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e12404-c2-eyeglasses_g_6329.jpg",
     imageModel1:
       "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e12404-c2-eyeglasses_7i5a8272_11.jpg",
@@ -96,6 +99,7 @@ let mulimgarr = [
   },
   {
     SpecColor: "black",
+    unit:1,
     SpecSize: "Extra Narrow",
     ProductCategory: "Vincent Chase",
     FrameShape: "round",
@@ -104,10 +108,7 @@ let mulimgarr = [
     id: 3,
     ProductPrice: 1999,
     qty: 1,
-    imageBg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-air-la-e11491-c9-eyeglasses_g_7042_21_12_2022.jpg",
-    imageFg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-air-la-e11491-c9-eyeglasses_g_7042_21_12_2022.jpg",
+
     imageModel1:
       "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e13043-c1-eyeglasses_7i5a3945lk.jpg",
     imageModel2:
@@ -128,6 +129,7 @@ let mulimgarr = [
 
   {
     SpecColor: "brown",
+    unit:1,
     SpecSize: "Narrow",
     ProductCategory: "Vincent Chase",
     FrameShape: "cat eye",
@@ -136,9 +138,9 @@ let mulimgarr = [
     id: 4,
     ProductPrice: 2999,
     qty: 1,
-    imageBg:
+    BackgroundImage:
       "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e13922-c1-eyeglasses_g_9208.jpg",
-    imageFg:
+    FrontImage:
       "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e13922-c1-eyeglasses_g_9209.jpg",
     imageModel1:
       "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e13922-c1-eyeglasses_g_9210.jpg",
@@ -160,6 +162,7 @@ let mulimgarr = [
 
   {
     SpecColor: "brown",
+    unit:1,
     SpecSize: "Medium",
     ProductCategory: "Vincent Chase",
     FrameShape: "aviator",
@@ -169,30 +172,28 @@ let mulimgarr = [
     ProductPrice: 1450,
     qty: 1,
 
-    imageBg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/blue-block-phone-&-computer-glasses:-rose-gold-brown-rimless-cat-eye-sleek-steel-vc-e13695-c1_vincent-chase-vc-e13695-rimless-cat-eye-metal-c1-eyegloss0s_g_0575_125_02_2022.jpg",
-    imageFg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/blue-block-phone-&-computer-glasses:-rose-gold-brown-rimless-cat-eye-sleek-steel-vc-e13695-c1_vincent-chase-vc-e13695-rimless-cat-eye-metal-c1-eyegloss0s_g_0577_125_02_2022.jpg",
+
     imageModel1:
-      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13065-rimless-aviator-tr90-c4-eyegasus_19_may_male_shoot-426_145729.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/brown-gold-black-full-rim-rectangle-lenskart-air-signia-la-e12709-c5-eyeglasses_31_oct_vc_model_shoot170375_201327_03_11_2022.jpg",
     imageModel2:
-      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13065-rimless-aviator-tr90-c4-eyegasus_19_may_male_shoot-420_145729.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/brown-gold-black-full-rim-rectangle-lenskart-air-signia-la-e12709-c5-eyeglasses_31_oct_vc_model_shoot170383_201327_03_11_2022.jpg",
     FemaleModel1:
-      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13065-rimless-aviator-tr90-c4-eyegasus_g_1595_1.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/brown-gold-black-full-rim-rectangle-lenskart-air-signia-la-e12709-c5-eyeglasses_31_oct_vc_model_shoot170829_201327_03_11_2022.jpg",
     FemaleModel2:
-      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13065-rimless-aviator-tr90-c4-eyegasus_g_1597.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/brown-gold-black-full-rim-rectangle-lenskart-air-signia-la-e12709-c5-eyeglasses_31_oct_vc_model_shoot170832_201327_03_11_2022.jpg",
     imageG1:
-      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13065-rimless-aviator-tr90-c4-eyegasus_g_1599.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/brown-gold-black-full-rim-rectangle-lenskart-air-signia-la-e12709-c5-eyeglasses_g_256630_sep_2022.jpg",
     imageG2:
-      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13065-rimless-aviator-tr90-c4-eyegasus_lenskart-air-la-e13065-rimless-aviator-tr90-c4-eyegasus_g_1595_Image_PLA.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/brown-gold-black-full-rim-rectangle-lenskart-air-signia-la-e12709-c5-eyeglasses_g_256730_sep_2022.jpg",
     imageG3:
-      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11420-fall-rim-wayfarer-c-on-c2-eyeglasses_g_3094_1.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/brown-gold-black-full-rim-rectangle-lenskart-air-signia-la-e12709-c5-eyeglasses_g_256930_sep_2022.jpg",
     imageG4:
-      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11420-fall-rim-wayfarer-c-on-c2-eyeglasses_g_3095_1.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/brown-gold-black-full-rim-rectangle-lenskart-air-signia-la-e12709-c5-eyeglasses_g_2564_image_pla30_sep_2022.jpg",
   },
 
   {
     SpecColor: "brown",
+    unit:1,
     SpecSize: "Extra Wide",
     ProductCategory: "Lenskart Air",
     FrameShape: "rectangle",
@@ -201,14 +202,11 @@ let mulimgarr = [
     id: 6,
     ProductPrice: 4500,
     qty: 1,
-    imageBg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/black-full-rim-rectangle-lenskart-air-clip-on-la-e11413-c1-eyeglasses_g_3081_12_21_2022.jpg",
-    imageFg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11413-fall-rim-rectgle-c-on-c1-eyeglasses_g_3078.jpg",
+
     imageModel1:
-      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11413-fall-rim-rectgle-c-on-c2-eyeglasses_g_3151.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/black-brown-copper-full-rim-aviator-lenskart-air-signia-la-e14201-c3-eyeglasses_15_feb_2023_m.f213503_201339_22_02_2023.jpg",
     imageModel2:
-      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11413-fall-rim-rectgle-c-on-c2-eyeglasses_g_3153.jpg",
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/black-brown-copper-full-rim-aviator-lenskart-air-signia-la-e14201-c3-eyeglasses_15_feb_2023_m.f213502_201339_22_02_2023.jpg",
     FemaleModel1:
       "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e11413-fall-rim-rectgle-c-on-c2-eyeglasses_16_march_male_th8157.jpg",
     FemaleModel2:
@@ -225,6 +223,7 @@ let mulimgarr = [
 
   {
     SpecColor: "blue",
+    unit:1,
     SpecSize: "Narrow",
     ProductCategory: "Lenskart Air",
     FrameShape: "rectangle",
@@ -233,9 +232,9 @@ let mulimgarr = [
     id: 7,
     ProductPrice: 3500,
     qty: 1,
-    imageBg:
+    BackgroundImage:
       "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13217-c2-new-eyeglasses_lenskart-air-la-e13217-c2-new-eyeglasses_g_4640.jpg",
-    imageFg:
+    FrontImage:
       "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13217-c2-new-eyeglasses_lenskart-air-la-e13217-c2-new-eyeglasses_g_4641_1.jpg",
     imageModel1:
       "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13217-c2-new-eyeglasses_7i5a0022.jpg",
@@ -258,6 +257,7 @@ let mulimgarr = [
   {
     SpecColor: "black",
     SpecSize: "Medium",
+    unit:1,
     ProductCategory: "Lenskart Air",
     FrameShape: "round",
     ProductRating: "4.2",
@@ -265,10 +265,7 @@ let mulimgarr = [
     id: 8,
     ProductPrice: 999,
     qty: 1,
-    imageBg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/Black-Full-Rim-Round-Lenskart-Air-Air-Flex-LA-E11482-C1-Eyeglasses_lenskart-air-la-e11482-c1-eyeglasses_j_036707_02_2022.jpg",
-    imageFg:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/Black-Full-Rim-Round-Lenskart-Air-Air-Flex-LA-E11482-C1-Eyeglasses_lenskart-air-la-e11482-c1-eyeglasses_j_036907_02_2022.jpg",
+
     imageModel1:
       "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_2.jpg",
     imageModel2:
@@ -286,6 +283,173 @@ let mulimgarr = [
     imageG4:
       "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930_Image_PLA.jpg",
   },
+
+
+  {
+    SpecColor: "black",
+    SpecSize: "Medium",
+    ProductCategory: "Lenskart Air",
+    FrameShape: "round",
+    ProductRating: "4.2",
+    ProductTitle: "Black Full Rim Round Eyeglasses",
+    id: 10,
+    ProductPrice: 999,
+    qty: 1,
+    BackgroundImage:
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+    FrontImage:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930.jpg",
+    imageModel1:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_2.jpg",
+    imageModel2:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_1.jpg",
+    FemaleModel1:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_19_march_female8297_lk_.jpg",
+    FemaleModel2:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_19_march_female8297_lk.jpg",
+    imageG1:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9932.jpg",
+    imageG2:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9933.jpg",
+    imageG3:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9935.jpg",
+    imageG4:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930_Image_PLA.jpg",
+  },
+
+
+  {
+    SpecColor: "black",
+    SpecSize: "Medium",
+    ProductCategory: "Lenskart Air",
+    FrameShape: "round",
+    ProductRating: "4.2",
+    ProductTitle: "Black Full Rim Round Eyeglasses",
+    id: 11,
+    ProductPrice: 999,
+    qty: 1,
+    BackgroundImage:
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+    FrontImage:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930.jpg",
+    imageModel1:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_2.jpg",
+    imageModel2:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_1.jpg",
+    FemaleModel1:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_19_march_female8297_lk_.jpg",
+    FemaleModel2:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_19_march_female8297_lk.jpg",
+    imageG1:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9932.jpg",
+    imageG2:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9933.jpg",
+    imageG3:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9935.jpg",
+    imageG4:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930_Image_PLA.jpg",
+  },
+
+
+  {
+    SpecColor: "black",
+    SpecSize: "Medium",
+    ProductCategory: "Lenskart Air",
+    FrameShape: "round",
+    ProductRating: "4.2",
+    ProductTitle: "Black Full Rim Round Eyeglasses",
+    id: 12,
+    ProductPrice: 999,
+    qty: 1,
+    BackgroundImage:
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+    FrontImage:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930.jpg",
+    imageModel1:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_2.jpg",
+    imageModel2:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_1.jpg",
+    FemaleModel1:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_19_march_female8297_lk_.jpg",
+    FemaleModel2:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_19_march_female8297_lk.jpg",
+    imageG1:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9932.jpg",
+    imageG2:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9933.jpg",
+    imageG3:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9935.jpg",
+    imageG4:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930_Image_PLA.jpg",
+  },
+
+
+  {
+    SpecColor: "black",
+    SpecSize: "Medium",
+    ProductCategory: "Lenskart Air",
+    FrameShape: "round",
+    ProductRating: "4.2",
+    ProductTitle: "Black Full Rim Round Eyeglasses",
+    id: 13,
+    ProductPrice: 999,
+    qty: 1,
+    BackgroundImage:
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+    FrontImage:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930.jpg",
+    imageModel1:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_2.jpg",
+    imageModel2:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_1.jpg",
+    FemaleModel1:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_19_march_female8297_lk_.jpg",
+    FemaleModel2:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_19_march_female8297_lk.jpg",
+    imageG1:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9932.jpg",
+    imageG2:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9933.jpg",
+    imageG3:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9935.jpg",
+    imageG4:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930_Image_PLA.jpg",
+  },
+
+
+  {
+    SpecColor: "black",
+    SpecSize: "Medium",
+    ProductCategory: "Lenskart Air",
+    FrameShape: "round",
+    ProductRating: "4.2",
+    ProductTitle: "Black Full Rim Round Eyeglasses",
+    id: 14,
+    ProductPrice: 999,
+    qty: 1,
+    BackgroundImage:
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
+    FrontImage:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930.jpg",
+    imageModel1:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_2.jpg",
+    imageModel2:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_1.jpg",
+    FemaleModel1:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_19_march_female8297_lk_.jpg",
+    FemaleModel2:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_19_march_female8297_lk.jpg",
+    imageG1:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9932.jpg",
+    imageG2:
+      "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9933.jpg",
+    imageG3:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9935.jpg",
+    imageG4:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930_Image_PLA.jpg",
+  },
+
+  
 ];
 
 console.log(mulimgarr);
@@ -327,12 +491,29 @@ function showAllSpecs(mulimgarr) {
         productDetails(ele);
       };
 
-      imageBox.style.background = `url(${ele.imageBg})no-repeat`;
-      imageBox.style.backgroundSpecSize = "100%";
+      // imageBox.style.background = `url(${ele.BackgroundImage})no-repeat`;
+      // imageBox.style.backgroundSpecSize = "100%";
 
       let image = document.createElement("img");
-      image.src = `${ele.imageFg}`;
+      image.src = `${ele.FrontImage}`;
+      image.style.height='250px'
+      image.style.width='250px'
+      image.style.objectFit='contain'
+      imageBox.style.width='auto'
+      box.style.height='auto'
 
+      imageBox.addEventListener("mouseenter",()=>{
+        // console.log(e)
+        // console.log("Angur")
+        image.src=ele.BackgroundImage
+        imageBox.appendChild(image);
+      })
+
+      imageBox.addEventListener("mouseleave",() => {
+        // console.log("Wasadya")
+        image.src=ele.FrontImage
+        imageBox.appendChild(image);
+      });
       imageBox.appendChild(image);
       box.appendChild(hearticon);
       box.appendChild(imageBox);
@@ -356,6 +537,8 @@ function showAllSpecs(mulimgarr) {
       ProductPrice.setAttribute("class", "price");
       ProductPrice.innerText = `₹${ele.ProductPrice}`;
 
+      let newDiv=document.createElement("div")
+      newDiv.setAttribute("class","sizeBigdiv")
       let SpecSize = document.createElement("div");
       SpecSize.setAttribute("class", "size");
       SpecSize.innerHTML = `Size: <b>${ele.SpecSize}</b>`;
@@ -363,10 +546,11 @@ function showAllSpecs(mulimgarr) {
       let SpecColor = document.createElement("div");
       SpecColor.setAttribute("class", "pdtclr");
       SpecColor.style.backgroundColor = ele.SpecColor;
-
-      SpecSize.appendChild(SpecColor);
+      newDiv.append(SpecSize,SpecColor)
+      // SpecSize.appendChild(SpecColor);
       // console.log(SpecSize);
-      detail.append(ProductCategory, ProductRating, ProductPrice, SpecSize);
+      detail.append(ProductCategory, ProductRating, ProductPrice, newDiv);
+
       box.appendChild(detail);
       // console.log(box);
       boxWrapper.appendChild(box);
@@ -380,7 +564,24 @@ function showAllSpecs(mulimgarr) {
   // console.log(AppendContainer);
 }
 
-/////////////////////////////Filter Part Start/////////////////////////////////////
+/////////////////////////////Filter Part Start///////////////////////////////////////
+
+////////////////////////////Filter By Shape//////////////////////////////////////////
+// FrameBox-1
+function FrameFilter(condition) {
+  // const selectedFrame = document.querySelector('.frame_style')?.value || "";
+  console.log(condition);
+  if (condition) {
+  let filterData = data.filter((ele) =>{
+    return ele.FrameShape == condition.toLowerCase();
+  });
+  // console.log(filterData)
+    showAllSpecs(filterData);
+  } else {
+    const localProducts = JSON.parse(localStorage.getItem("AllProduct")) || [];
+    showAllSpecs(localProducts);
+  }
+}
 
 ////////////////////////////Color Filter Start///////////////////////////////////////////
 //Imparative Method
@@ -425,34 +626,103 @@ function ColorFilter() {
 /////////////////////////////Filter Part End///////////////////////////////////////
 
 ////////////////////////////Sorting Part Start////////////////////////////////////
-let SortPrize = document.getElementById("SortPrize");
-SortPrize.addEventListener("click", sortPrize);
-function sortPrize() {
+
+const SortPrize = document.getElementById("SortPrize");
+
+SortPrize.addEventListener("change", () => {
   const sortOption = SortPrize.value;
-  if (sortOption === "Price Low to High") {
-    data.sort((a, b) => a.ProductPrice - b.ProductPrice);
-  } else if (sortOption === "Price High to Low") {
-    data.sort((a, b) => b.ProductPrice - a.ProductPrice);
-  } else if (sortOption === "Best Sellers") {
-    data.sort((a, b) => b.ProductRating - a.ProductRating);
+  switch (sortOption) {
+    case "Price Low to High":
+      data.sort((a, b) => a.ProductPrice - b.ProductPrice);
+      break;
+    case "Price High to Low":
+      data.sort((a, b) => b.ProductPrice - a.ProductPrice);
+      break;
+    case "Best Sellers":
+      data.sort((a, b) => b.ProductRating - a.ProductRating);
+      break;
   }
-
   showAllSpecs(data);
-}
+});
 
-function rateHightoLow() {
-  data.sort((a, b) => Number(b.ProductRating) - Number(a.ProductRating));
-  showAllSpecs(data);
-}
-
-const Lowtohigh = () => {
-  data.sort((a, b) => (a.ProductPrice > b.ProductPrice ? 1 : -1));
+const sortByRatingDescending = () => {
+  data.sort((a, b) => b.ProductRating - a.ProductRating);
   showAllSpecs(data);
 };
 
-const hightoLow = () => {
-  data.sort((a, b) => (a.ProductPrice < b.ProductPrice ? 1 : -1));
+const sortByPriceAscending = () => {
+  data.sort((a, b) => a.ProductPrice - b.ProductPrice);
   showAllSpecs(data);
 };
+
+const sortByPriceDescending = () => {
+  data.sort((a, b) => b.ProductPrice - a.ProductPrice);
+  showAllSpecs(data);
+};
+
+
+
+// let SortPrize = document.getElementById("SortPrize");
+// SortPrize.addEventListener("click", sortPrize);
+// function sortPrize() {
+//   const sortOption = SortPrize.value;
+//   if (sortOption === "Price Low to High") {
+//     data.sort((a, b) => a.ProductPrice - b.ProductPrice);
+//   } else if (sortOption === "Price High to Low") {
+//     data.sort((a, b) => b.ProductPrice - a.ProductPrice);
+//   } else if (sortOption === "Best Sellers") {
+//     data.sort((a, b) => b.ProductRating - a.ProductRating);
+//   }
+//   showAllSpecs(data);
+// }
+// function rateHightoLow() {
+//   data.sort((a, b) => Number(b.ProductRating) - Number(a.ProductRating));
+//   showAllSpecs(data);
+// }
+// const Lowtohigh = () => {
+//   data.sort((a, b) => (a.ProductPrice > b.ProductPrice ? 1 : -1));
+//   showAllSpecs(data);
+// };
+// const hightoLow = () => {
+//   data.sort((a, b) => (a.ProductPrice < b.ProductPrice ? 1 : -1));
+//   showAllSpecs(data);
+// };
 
 ////////////////////////////Sorting Part End///////////////////////////////////
+
+
+///////////////////////////Search Part Start///////////////////////////////////
+
+//////////////////////////Imparative method///////////////////////////////////
+
+
+// document.getElementById("id of search icon").addEventListener("click", () => {
+//   const searchInput = document.getElementById("id of input box").value.split(" ")[0].toLowerCase();
+//   const productData = JSON.parse(localStorage.getItem("AllProduct"));
+//   const filteredProductData = productData.filter(item => item.ProductCategory.split(" ")[0].toLowerCase() === searchInput || item.SpecColor === searchInput || item.FrameShape === searchInput);
+//   if (filteredProductData.length) showProducts(filteredProductData);
+// });
+
+
+
+//////////////////////////Declarative method////////////////////////////////
+
+
+// const searchFilterButton = document.getElementById("id of search icon");
+// searchFilterButton.addEventListener("click", handleSearchInput);
+// function handleSearchInput() {
+//   const searchInput = document.getElementById("id of input box").value.split(" ")[0].toLowerCase();
+//   const productData = JSON.parse(localStorage.getItem("AllProduct"));
+//   const filteredProductData = productData.filter(item => {
+//     return item.ProductCategory.split(" ")[0].toLowerCase() === searchInput || item.SpecColor === searchInput || item.FrameShape === searchInput;
+//   });
+//   console.log(filteredProductData);
+//   if (filteredProductData.length != 0) {
+//     showProducts(filteredProductData);
+//   } else {
+//     return;
+//   }
+// }
+
+
+//////////////////////////Search Part End//////////////////////////////////////
