@@ -1,5 +1,6 @@
 let arr =JSON.parse(localStorage.getItem("AllProduct"))||[];
 
+
 // catching the tags
 let Emptycart = document.getElementById("emptyall");
 let cart = document.getElementById("middle_part");
