@@ -2,7 +2,10 @@
     *{
         margin: 0%;
         padding: 0%;
+      font-family:Helvetica,Arial,sans-serif;
+ 
     }
+
     header{
         width: 1519px;
         height: 40px;
@@ -33,7 +36,9 @@
     .cart{
         width: 370px;
         height: 322px;
-        background-color: blueviolet;
+        /* background-color: blueviolet; */
+        border: 1px dotted black;
+        margin-top: 10px;
     }
     .step{
         width: 694px;
@@ -52,7 +57,8 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        padding-top: 5px;
+        padding-top: 15px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
      
     }
     .step span{
@@ -62,13 +68,13 @@
   color: black;
   border-radius: 50%;
   display: inline-block;
-
+ 
     }
     .details{
         width: 444px;
         height: 20px;
         /* display: flex; */
-     margin-left: 20px;
+     margin-left: 40px;
         
     }
   
@@ -80,31 +86,54 @@
     .details>div img{
         width: 222px;
         height: 18px;
-        margin-left: 120px;
+        margin-left: 110px;
         margin-top: 12px;
     }
+    .secure span{
+        font-size: 14px;
+        color: #4f676f;
+        font-weight: 600;
+    }
   #Card-Nu, #Card-name {
-    width: 444px;
+    width: 400px;
     height: 24px;
     padding: 6px 12px;
-    background-color: #FFFFFF;
-    border: .1px solid grey;
+    background-color:   #FFFFFF;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px double #f5f5f5;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   }
  
   #month-year{
     width: 190px;
     height: 24px;
     padding: 6px 12px;
+    border: 1px double #f5f5f5;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
  } 
  #Cvv{
     width: 160px;
     height: 24px;
     padding: 6px 12px;
     margin-left: 20px;
+    border: 1px double #f5f5f5;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
  } 
+ .RBI{
+    font-size: 13px;
+    color: #4f676f;
+    font-weight: 600;
+ }
+ .RBI a{
+    color:  #68ebed;
+     font-weight: 600;
+ }
  .btn-div{
     width: 444px;
     height: 83px;
+
  }
  button{
     width: 223px;
@@ -115,65 +144,104 @@
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
  }
     .discount{
         width: 694px;
-        height: 35px;
+        height: 28px;
         background-color: #f2f2f2;
-    
+       border-radius: 3px;
+       padding-top: 10px;
+       box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+    .discount span{
+       margin-left: 20px;
+   font-size: 14px;
+   font-weight: 500;
+
     }
    
     .payment{
         width: 694px;
-        height: 35px;
+        height: 28px;
+        border-radius: 3px;
         background-color:  #00bac6;
-       
+       padding-top: 10px;
+       box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+    .payment span{
+        margin-left: 20px;
+        font-size: 14px;
+        font-weight: 500;
+     color: #FFFFFF;
     }
     .div3{
         width: 692px;
-        height: 413px;
+        height: 313px;
         padding: 0px 0px 40px;
         display: flex;
         /* background-color: aliceblue; */
+        border: 1px solid #f4f4f4;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     }
     .Option{
         width: 222px;
-        height: 300px;
-        background-color: blue;
+        height: 400px;
+        /* background-color: blue; */
     }
     .Option span{
         width: 222px;
-        height: 51px;
+        height: 41px;
     background-color:#efefef;
     text-align: center;
-    display: flex;
-    margin: 0px 0px -1px;
-  padding: 5px 0px 5px 5px;
-  
+     display: flex;
+    /* margin: 0px 0px -1px;
+  padding: 5px 0px 5px 5px; */
+      padding-left: 20px;
+      padding-top: 25px;
+      border-bottom: 2px solid white;
     }
+  
     .TC{
         width: 709px;
-        height: 25px;
+        height: 22px;
         /* margin: 0px 0px 10px;
         padding: 0px 0px 5px; */
-        border-bottom: 1px solid grey;
+        border-bottom: .1px solid  #ededed;
+       
+        padding-top: 20px;
     }
     .TC span{
-        padding-left: 280px;
-
+        padding-left: 360px;
+       font-size: 12px;
+     
+    }
+    .TC a{
+        color: #58ccde;
+        font-size: 13px;
     }
     .cancelP{
         width: 709px;
-        height: 25px;
+        height: 22px;
         margin: 0px 0px 20px;
-      
+        font-size: 20px;
+        color: #333333;
+        padding-top: 20px;
     }
     .cancelP span:nth-child(2) {
-        margin-left: 450px;
+        margin-left: 390px;
+        font-size: 14px;
+        color: #333333;
+        font-weight: 500;
     }
     .Img img{
         width: 709px;
         height: 122px;
+    }
+    .cancelP a{
+        font-weight: 800;
+        text-decoration: none;
     }
    
 
