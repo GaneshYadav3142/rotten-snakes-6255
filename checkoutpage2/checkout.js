@@ -1,50 +1,96 @@
-let paymentPage=document.querySelector("#btn")
-    paymentPage.addEventListener("click",(event)=>{
-        event.preventDefault()
-        window.location.href="..chekoutPAY/checkoutPAY.html"
+let paymentPage=document.querySelector("button")
+    paymentPage.addEventListener("click",(e)=>{
+        e.preventDefault();
+        window.location.href = "/chekoutPAY/checkoutPAY.html";
     })
 
-    // C:\Users\DELL\Desktop\LensKart\rotten-snakes-6255\chekoutPAY\checkoutPAY.html
-    let cart = document.getElementById("second");
-    let billOuter = document.createElement("div");
-    let bill = document.createElement("div");
-    bill.classList.add("bill");
+  let data=[ {
+        id: 1,
+        title: "Lenskart Air Online",
+        size: "Narrow•Air Signia",
+        price: 999,
+        discount: "60% OFF. Use: TRYUS",
+        rating: 4.5,
+        reviews: 45,
+        category: "Lenskart Air",
+        FrameColor: "Black",
+        WearableFor: "Men",
+        image: "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/Matte-Black-Gold-Full-Rim-Cat-Eye--Lenskart-Air-Signia-LA-E12054-C5-Eyeglasses_lenskart-air-la-e12054-c5-eyeglasses_G_846309_02_2022.jpg",
+        image2:"https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/Matte-Black-Gold-Full-Rim-Cat-Eye--Lenskart-Air-Signia-LA-E12054-C5-Eyeglasses_lenskart-air-la-e12054-c5-eyeglasses_G_846209_02_2022.jpg",
+      }]
 
-    //-----------------------------------------------------------------------------
-    //total price
-    let line1= document.createElement("div");
-    line1.classList.add("line");
-    let total = document.createElement("p");
-    total.innerHTML = "Total Price";
-    let totalValue = document.createElement("p");
-    totalValue.innerHTML = "₹"+pricesum;
-    line1.append(total,totalValue);
+    let cartdata=[{
+        id: 1,
+        title: "Lenskart Air Online",
+        size: "Narrow Air Signia",
+        price: 999,
+        discount: "60% OFF. Use: TRYUS",
+        quantity:2,
+        rating: 4.5,
+        reviews: 45,
+        category: "Lenskart Air",
+        FrameColor: "Black",
+        WearableFor: "Men",
+        image: "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/Matte-Black-Gold-Full-Rim-Cat-Eye--Lenskart-Air-Signia-LA-E12054-C5-Eyeglasses_lenskart-air-la-e12054-c5-eyeglasses_G_846309_02_2022.jpg",
+        image2:"https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/Matte-Black-Gold-Full-Rim-Cat-Eye--Lenskart-Air-Signia-LA-E12054-C5-Eyeglasses_lenskart-air-la-e12054-c5-eyeglasses_G_846209_02_2022.jpg",
+      },
+      {
+        id: 2,
+        title: "Lenskart Air Online",
+        size: "Narrow Air Signia",
+        price: 999,
+        discount: "60% OFF. Use: TRYUS",
+        quantity:2,
+        rating: 4.5,
+        reviews: 45,
+        category: "Lenskart Air",
+        FrameColor: "Black",
+        WearableFor: "Men",
+        image: "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/Matte-Black-Gold-Full-Rim-Cat-Eye--Lenskart-Air-Signia-LA-E12054-C5-Eyeglasses_lenskart-air-la-e12054-c5-eyeglasses_G_846309_02_2022.jpg",
+        image2:"https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/Matte-Black-Gold-Full-Rim-Cat-Eye--Lenskart-Air-Signia-LA-E12054-C5-Eyeglasses_lenskart-air-la-e12054-c5-eyeglasses_G_846209_02_2022.jpg",
+      },
+      {
+        id: 3,
+        title: "Lenskart Air Online",
+        size: "Narrow Air Signia",
+        price: 999,
+        discount: "60% OFF. Use: TRYUS",
+        quantity:2,
+        rating: 4.5,
+        reviews: 45,
+        category: "Lenskart Air",
+        FrameColor: "Black",
+        WearableFor: "Men",
+        image: "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/Matte-Black-Gold-Full-Rim-Cat-Eye--Lenskart-Air-Signia-LA-E12054-C5-Eyeglasses_lenskart-air-la-e12054-c5-eyeglasses_G_846309_02_2022.jpg",
+        image2:"https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/Matte-Black-Gold-Full-Rim-Cat-Eye--Lenskart-Air-Signia-LA-E12054-C5-Eyeglasses_lenskart-air-la-e12054-c5-eyeglasses_G_846209_02_2022.jpg",
+      }]
 
-    //tax
-    let line2= document.createElement("div");
-    line2.classList.add("line");
-    let tax = document.createElement("p");
-    tax.innerHTML = "Tax";
-    let taxValue = document.createElement("p");
-    let taxval=pricesum*0.18;
-    taxValue.innerHTML = "₹"+taxval.toFixed(2);
-    line2.append(tax,taxValue);
+      let second=document.getElementById("second");
+     
+      function display(data){
+        second.innerHTML=null;
+        let sum=0;
+        data.forEach((el)=>{
+          sum+=el.quantity*el.price
+      })
+        data.forEach((el,i)=>{
+          let card=document.createElement("div");
+          let image=document.createElement("img");
+          image.src=el.image;
+          let titleEL = document.createElement("p");
+          titleEL.textContent = "Brand:"+ el.title;
+          let colorEL = document.createElement("p");
+          colorEL.textContent = "FrameColor:"+ el.FrameColor;
+          let price=document.createElement("p");
+          let quantity=document.createElement("p");
 
-    //total payable amount
-    let line3= document.createElement("div");
-    line3.classList.add("line",);
-    let payable = document.createElement("p");
-    payable.innerHTML = "Total Payable";
-    let payableValue = document.createElement("p");
-    let totalpayable=pricesum+taxval;
-    payableValue.innerHTML = "₹"+totalpayable.toFixed(2);
-    line3.append(payable,payableValue);
+          price.textContent="productprice:"+el.price;
+          quantity.textContent="Qty:"+el.quantity;
+          card.append(image,titleEL,colorEL,quantity,price)
+          second.append(card);
 
-    //appending all the elements in the bill div
-    bill.append(line1,line2,line3);
-
-
-    //appending the bill div in the cart div
-    billOuter.append(bill);
-    cart.append(billOuter);
+        })
+        //let subtotal=document.("subtotal")
+      }
+      display(cartdata)
 

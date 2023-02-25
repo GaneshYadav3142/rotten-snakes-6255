@@ -273,11 +273,29 @@ button{
 }
 /* this is second*/
 #second{
-    border:2px dotted red;
-    width: 50%;
+    width: 250px;
     margin-left: 20px;
+    display: grid;
+    text-align: center;
+    /* border: 1px solid red; */
+    grid-gap: 10px;
+    grid-template-rows: repeat(3, 253px);
 }
-#second > div:nth-child(1) {
-    border: 1px solid red;
-    width: 100px;
+#second > div {
+    /* border: 1px solid blue; */
+    height: 250px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+#second p {
+    /* border: 1px solid red; */
+    position: relative;
+    bottom:30px;
+    right:49px;
+    text-align: justify;
+    width: 200px;
+}
+#second img {
+    width: 150px;
 }

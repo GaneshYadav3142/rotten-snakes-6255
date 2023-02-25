@@ -118,6 +118,95 @@ let user1=document.getElementById("user1");
 //let username=localStorage.getItem("user");
 console.log(user2)
 user1.addEventListener("click",()=>{
-    console.log("click");
+    window.location.assign("/loginpage/login.html");
 })
 user1.textContent = user2;
+
+//--------------> making an middle part of website
+
+// let wall = document.getElementById("wallpaper1");
+// let wallpapers = [
+//     "https://static1.lenskart.com/media/desktop/img/Nov22/tinted/launch-desk.gif",
+//     "https://static1.lenskart.com/media/desktop/img/Feb23/23feb/hooper-eye-web.jpg",
+//     "https://static1.lenskart.com/media/desktop/img/Nov22/mens-edit/desktop.jpg",
+//     "https://static1.lenskart.com/media/desktop/img/Oct22/kiara/Refresh-Banner-Web.gif",
+//     "https://static1.lenskart.com/media/desktop/img/Dec22/blend-edit/web.jpg",
+//     "https://static1.lenskart.com/media/desktop/img/Dec22/new-collection/desktop.gif",
+//     "https://static1.lenskart.com/media/desktop/img/Nov22/LK-Airflex-desktop-banner.gif",
+//     "https://static1.lenskart.com/media/desktop/img/Dec22/5-Jan/1920x530(play-now)%20(1).gif",
+//     "https://static1.lenskart.com/media/desktop/img/Nov22/airplay/desk-play.jpg",
+//     "https://static1.lenskart.com/media/desktop/img/Dec22/1-Dec/Homepage-Banner-web.gif"
+// ]
+//   async function loadSliderImages() {
+//     wallpapers.forEach((imageUrl) => {
+//         const img = document.createElement('img');
+//         img.src = imageUrl;
+//         container.appendChild(img);
+//       });
+
+//       const prevBtn = document.getElementById('slider-prev');
+//       const nextBtn = document.getElementById('slider-next');
+//       const imagesList = document.querySelectorAll('#slider-container img');
+//       let currentIndex = 0;
+//     }
+let arrSpecs1 = [
+    {
+        image : "https://static1.lenskart.com/media/desktop/img/Sep21/image179.png",
+        name : "Round"
+    },
+    {
+        image : "https://static1.lenskart.com/media/desktop/img/Sep21/cateeye.jpg",
+        name : "Cat-Eye"
+    },
+    {
+        image : "https://static1.lenskart.com/media/desktop/img/Sep21/clubmaster.jpg",
+        name : "Clubmaster"
+    },
+    {
+        image : "https://static1.lenskart.com/media/desktop/img/Sep21/trans.jpg",
+        name : "Transparent"
+    }
+] 
+let arrSpecs2 = [
+    {
+        image : "https://static1.lenskart.com/media/desktop/img/Sep21/blend.jpg",
+        name : "Blend Edit"
+    },
+    {
+        image : "https://static1.lenskart.com/media/desktop/img/Sep21/clipon.jpg",
+        name : "Air Clip-On"
+    },
+    {
+        image : "https://static1.lenskart.com/media/desktop/img/Sep21/airflex.jpg",
+        name : "Air Flex"
+    },
+    {
+        image : "https://static1.lenskart.com/media/desktop/img/Sep21/trans.jpg",
+        name : "Retro Aviator"
+    }
+] 
+console.log(showSlider(arrSpecs1, arrSpecs2));
+showSlider(arrSpecs1, arrSpecs2);
+let showTrends = document.getElementById("SpecsSlider");
+function showSlider(data1, data2) {
+    data1.forEach(el => {
+        let divEl = document.createElement("div");
+        let img = document.createElement('img');
+        img.src = el.image;
+        let nameEl = document.createElement("p");
+        nameEl.textContent = el.name;
+
+        divEl.append(img,nameEl);
+        showTrends.append(divEl);
+    });
+    data2.forEach(el => {
+        let divEl = document.createElement("div");
+        let img = document.createElement('img');
+        img.src = el.image;
+        let nameEl = document.createElement("p");
+        nameEl.textContent = el.name;
+
+        divEl.append(img,nameEl);
+        showTrends.append(divEl);
+    });
+}
