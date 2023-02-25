@@ -7,10 +7,6 @@
   grid-template-rows: auto;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-/* .product_detail_wrapper{
-    border: 2px solid red;
-} */
-
 .Wr_images {
   /* border: 1px solid black; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -19,6 +15,32 @@
   justify-content: center;
   align-items: center;
 }
+.product_detail_wrapper {
+  display: flex;
+  gap: 170px;
+}
+
+.product_details {
+  border: 2px solid black;
+  height: 250px;
+  width: 550px;
+}
+
+button {
+  height: 40px;
+  margin-left: 20px;
+  text-align: center;
+  background-color: teal;
+  color: white;
+  border: none;
+}
+
 img {
   width: 350px;
+}
+
+.size{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: gray;
 }
