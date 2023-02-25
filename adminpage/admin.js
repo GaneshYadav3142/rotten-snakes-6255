@@ -1,18 +1,8 @@
 
     // 1. catch the form
     let form = document.querySelector('form');
-
-    // 2. we get the old data
-    // as we are using array to store the objects, we use json.parse
-
-    let productDB = JSON.parse(localStorage.getItem('productDB'))||[];
-
-    // 3. we add event to the form to store the data.
-
     form.addEventListener('submit',function(event){
-        // we prevent default
         event.preventDefault();
-        //4. we create temp obj to store form data
         let formData = {
             name: form.name.value,
             desc: form.desc.value,
