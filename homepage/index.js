@@ -25,20 +25,20 @@ let dro23 = document.getElementById("dr3");
 let dro24 = document.getElementById("dr4");
 let dro3 = document.getElementById("droper3");
 head2.addEventListener("mouseover", ()=> {
-    dropdown2.style.display = "block";
+    dropdown1.style.display = "block";
     dro21.style.color = "white";
     dro22.style.color = "white";
     dro23.style.color = "white";
     dro24.style.color = "white";
 })
 head2.addEventListener("mouseout", ()=> {
-    dropdown2.style.display = "none";
+    dropdown1.style.display = "none";
 })
-dropdown2.addEventListener("mouseover", ()=>{
-    dropdown2.style.display = "block";
+dropdown1.addEventListener("mouseover", ()=>{
+    dropdown1.style.display = "block";
 })
-dropdown2.addEventListener("mouseout", ()=>{
-    dropdown2.style.display = "none";
+dropdown1.addEventListener("mouseout", ()=>{
+    dropdown1.style.display = "none";
 })
 
 
