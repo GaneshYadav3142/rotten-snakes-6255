@@ -1,0 +1,24 @@
+.RowData {
+  display: grid;
+  gap: 15px;
+  /* border: 2px solid red; */
+  width: 70%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* .product_detail_wrapper{
+    border: 2px solid red;
+} */
+
+.Wr_images {
+  /* border: 1px solid black; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 350px;
+}
