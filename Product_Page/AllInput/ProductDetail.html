@@ -97,19 +97,51 @@
 
     ///////////////////All Category///////////////////////
 
+    let Category = document.createElement("div");
+    Category.setAttribute("class", "Category");
+
+    let title = document.createElement("h3");
+    title.setAttribute("class", "title");
+    title.innerText = `${ele.ProductTitle}`;
+
     let name = document.createElement("p");
-      name.setAttribute("class", "name");
-      name.innerText = `${element.productName}`;
+    name.setAttribute("class", "name");
+    name.innerText = `${ele.ProductCategory}`;
 
     let size = document.createElement("p");
-      size.setAttribute("class", "size");
-      size.innerHTML = `Size: ${element.size}`;
+    size.setAttribute("class", "size");
+    size.innerHTML = `Size: ${ele.SpecSize}`;
 
-      let price = document.createElement("p");
-      price.setAttribute("class", "price");
-      price.innerText = `₹${element.price}`;
+    let price = document.createElement("p");
+    price.setAttribute("class", "price");
+    price.innerText = `Prize : ₹${ele.ProductPrice}`;
 
-      
+
+
+   let CartDB=JSON.parse(localStorage.getItem("cartproduct"))||[];
+    let btn = document.createElement("button");
+    btn.textContent = "Buy Now";
+    btn.addEventListener("click", () => {
+      if (duplicate(ele)) {
+        alert("Product Already in cart");
+      } else {
+        CartDB.push({ ...ele, quantity: 1 });
+        localStorage.setItem("cartproduct", JSON.stringify(CartDB));
+        alert("Product added to Cart");
+      }
+    });
+
+    function duplicate(ele) {
+      for (let i = 0; i < CartDB.length; i++) {
+        if (CartDB[i].id === ele.id) {
+          return true;
+        }
+      }
+      return false;
+    }
+    // card.append(img,id,category,title,price,desc,addtocart)
+    // div.append(card)
+    Category.append(name, title, size, price, btn);
+    ProdeuctDetailBox.append(Category);
   }
-
 </script>

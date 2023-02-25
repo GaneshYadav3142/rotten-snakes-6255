@@ -7,7 +7,7 @@ let mulimgarr = [
     ProductRating: "4.6",
     ProductTitle: "Black Full Rim Round Eyeglasses",
     id: 0,
-    ProductPrice: 10000,
+    ProductPrice: 3000,
     qty: 1,
     BackgroundImage:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/lenskart-lk-e15173-c2-eyeglasses_g_7988_06_01_2023.jpg",
@@ -732,8 +732,38 @@ const sortByPriceDescending = () => {
 
 //////////////////////////Imparative method///////////////////////////////////
 
+const searchInput = document.getElementById('search');
+const searchResults = document.getElementById('searchResults');
+let debounceTimeout;
+searchInput.addEventListener('input', () => {
+  // Clear any previously set timeout to debounce the search function
+  clearTimeout(debounceTimeout);
+  // Set a new timeout to debounce the search function
+  debounceTimeout = setTimeout(() => {
+    const searchTerm = searchInput.value;
+    const results = searchFunction(searchTerm);
+    displayResults(results);
+  }, 500); // Debounce time of 500ms
+});
+function searchFunction(searchTerm) {
+  // Replace this with your own search logic
+  const data = mulimgarr
+  const filteredData = data.filter(item => item.includes(searchTerm));
+  return filteredData;
+}
+function displayResults(results) {
+  // Clear previous search results
+  searchResults.innerHTML = '';
+  // Display new search results
+  results.forEach(result => {
+    const li = document.createElement('li');
+    li.textContent = result;
+    searchResults.appendChild(li);
+  });
+}
+
 // document.getElementById("id of search icon").addEventListener("click", () => {
-//   const searchInput = document.getElementById("id of input box").value.split(" ")[0].toLowerCase();
+//   const searchInput = document.getElementById("search").value.split(" ")[0].toLowerCase();
 //   const productData = JSON.parse(localStorage.getItem("AllProduct"));
 //   const filteredProductData = productData.filter(item => item.ProductCategory.split(" ")[0].toLowerCase() === searchInput || item.SpecColor === searchInput || item.FrameShape === searchInput);
 //   if (filteredProductData.length) showProducts(filteredProductData);
@@ -756,5 +786,4 @@ const sortByPriceDescending = () => {
 //     return;
 //   }
 // }
-
 //////////////////////////Search Part End//////////////////////////////////////
