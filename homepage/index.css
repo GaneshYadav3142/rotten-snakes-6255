@@ -111,7 +111,7 @@
     color: #000042;
     font-weight: 900;
     text-align: left;
-    font-size: 13px;
+    font-size: 15px;
     padding: 19px 15px;
     cursor: pointer;
     /* border: 1px solid red; */
@@ -156,8 +156,9 @@
     width: 1220px;
     height: 440px;
     left: 20px;
-    top: 143px;
+    top: 145px;
     background-color: white;
+    /* border: 1px solid red; */
 }
 .linkers {
     position: relative;
@@ -185,6 +186,22 @@
 .linked > a:hover {
     color: #010045;
     font-weight: 600;
+}
+
+.threes {
+    display: flex;
+    position: relative;
+    top: 120px;
+    width: 900px;
+    left: 190px;
+    text-align: center;
+    justify-content: space-around;
+}
+.threes p {
+    color:#7d7d9e;
+}
+.threes img {
+    width: 130px;
 }
 
 .dropone > .outer {
