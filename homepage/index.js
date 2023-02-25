@@ -49,6 +49,8 @@ let head5 = document.getElementById("headfive");
 let head6 = document.getElementById("headsix");
 let head7 = document.getElementById("headseven");
 let head8 = document.getElementById("headeight");
+
+
 let user2=sessionStorage.getItem("user2")||"Sign In & Sign Up"
 let user1=document.getElementById("user1")
 //let username=localStorage.getItem("user");
