@@ -1,6 +1,7 @@
 let mulimgarr = [
   {
     SpecColor: "black",
+    unit:1,
     SpecSize: "Medium",
     ProductCategory: "Lenskart Air",
     FrameShape: "rectangle",
@@ -32,6 +33,7 @@ let mulimgarr = [
   },
   {
     SpecColor: "blue",
+    unit:1,
     SpecSize: "Narrow",
     ProductCategory: "Lenskart Air Manoj",
     FrameShape: "geometric",
@@ -65,6 +67,7 @@ let mulimgarr = [
 
   {
     SpecColor: "blue",
+    unit:1,
     SpecSize: "Medium",
     ProductCategory: "Vincent Chase",
     FrameShape: "rectangle",
@@ -96,6 +99,7 @@ let mulimgarr = [
   },
   {
     SpecColor: "black",
+    unit:1,
     SpecSize: "Extra Narrow",
     ProductCategory: "Vincent Chase",
     FrameShape: "round",
@@ -104,10 +108,7 @@ let mulimgarr = [
     id: 3,
     ProductPrice: 1999,
     qty: 1,
-    BackgroundImage:
-      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e13043-c1-eyeglasses_g_7953_3.jpg",
-    FrontImage:
-      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e13043-c1-eyeglasses_g_7954_3.jpg",
+
     imageModel1:
       "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e13043-c1-eyeglasses_7i5a3945lk.jpg",
     imageModel2:
@@ -128,6 +129,7 @@ let mulimgarr = [
 
   {
     SpecColor: "brown",
+    unit:1,
     SpecSize: "Narrow",
     ProductCategory: "Vincent Chase",
     FrameShape: "cat eye",
@@ -160,6 +162,7 @@ let mulimgarr = [
 
   {
     SpecColor: "brown",
+    unit:1,
     SpecSize: "Medium",
     ProductCategory: "Vincent Chase",
     FrameShape: "aviator",
@@ -169,10 +172,7 @@ let mulimgarr = [
     ProductPrice: 1450,
     qty: 1,
 
-    BackgroundImage:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/brown-gold-black-full-rim-rectangle-lenskart-air-signia-la-e12709-c5-eyeglasses_g_256430_sep_2022.jpg",
-    FrontImage:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/brown-gold-black-full-rim-rectangle-lenskart-air-signia-la-e12709-c5-eyeglasses_g_256330_sep_2022.jpg",
+
     imageModel1:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/brown-gold-black-full-rim-rectangle-lenskart-air-signia-la-e12709-c5-eyeglasses_31_oct_vc_model_shoot170375_201327_03_11_2022.jpg",
     imageModel2:
@@ -193,6 +193,7 @@ let mulimgarr = [
 
   {
     SpecColor: "brown",
+    unit:1,
     SpecSize: "Extra Wide",
     ProductCategory: "Lenskart Air",
     FrameShape: "rectangle",
@@ -201,10 +202,7 @@ let mulimgarr = [
     id: 6,
     ProductPrice: 4500,
     qty: 1,
-    BackgroundImage:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/black-brown-copper-full-rim-aviator-lenskart-air-signia-la-e14201-c3-eyeglasses_g_4847_10_21_22.jpg",
-    FrontImage:
-      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/black-brown-copper-full-rim-aviator-lenskart-air-signia-la-e14201-c3-eyeglasses_g_4849_10_21_22.jpg",
+
     imageModel1:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/black-brown-copper-full-rim-aviator-lenskart-air-signia-la-e14201-c3-eyeglasses_15_feb_2023_m.f213503_201339_22_02_2023.jpg",
     imageModel2:
@@ -225,6 +223,7 @@ let mulimgarr = [
 
   {
     SpecColor: "blue",
+    unit:1,
     SpecSize: "Narrow",
     ProductCategory: "Lenskart Air",
     FrameShape: "rectangle",
@@ -258,6 +257,7 @@ let mulimgarr = [
   {
     SpecColor: "black",
     SpecSize: "Medium",
+    unit:1,
     ProductCategory: "Lenskart Air",
     FrameShape: "round",
     ProductRating: "4.2",
@@ -265,6 +265,7 @@ let mulimgarr = [
     id: 8,
     ProductPrice: 999,
     qty: 1,
+ 
     BackgroundImage:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
     FrontImage:
@@ -301,6 +302,8 @@ let mulimgarr = [
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
     FrontImage:
       "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930.jpg",
+
+
     imageModel1:
       "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_2.jpg",
     imageModel2:
