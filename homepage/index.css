@@ -126,7 +126,6 @@
     width: 920px;
     display: flex;
     left: 300px;
-    /* border: 1px solid red; */
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e3e3e3;
