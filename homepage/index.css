@@ -20,7 +20,6 @@
     margin-top: -10px;
     align-items: center;
 }
-
 .first a {
     text-decoration: none;
     color: #000042;
@@ -29,7 +28,6 @@
     letter-spacing: -0.2px;
 }
 .first > .inner > .right {
-    /* border: 1px solid red; */
     margin-right: 30px;
 }
 .first > .inner > .right > a:hover {
@@ -41,7 +39,6 @@
     background-color: white;
     justify-content: space-between;
     margin-top: 10px;
-    /* border: 1px solid red; */
     align-items: center;
 }
 .lefty {
@@ -51,7 +48,6 @@
     margin-left: 20px;
     width: 820px;
     align-items: center;
-    /* border: 1px solid red; */
 }
 .lefty > .one > .img > a > img {
     width: 160px;
@@ -102,22 +98,21 @@
     background-color: #fbf9f7;
     font-family: 'Open Sans', sans-serif;
     height: 55px;
-    /* border: 1px solid red; */
 }
 /* left */
 .third > .left {
     display: flex;
-    width: 950px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-left: 20px;
     /* border: 1px solid red; */
 }
 .third > .left > h4 {
     color: #000042;
-    line-height: 60px;
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 900;
+    text-align: left;
+    font-size: 13px;
+    padding: 19px 15px;
     cursor: pointer;
     /* border: 1px solid red; */
 }
@@ -125,17 +120,80 @@
     border-bottom: 3px solid #000042;
 }
 
-/* here a (dropdowns) css ----> {starts} ------------------>*/
+/* ====> here's a (dropdowns) css ----> {starts} ------------------>*/
+.headrop {
+    position: relative;
+    width: 920px;
+    display: flex;
+    left: 300px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e3;
+}
+.headrop > .droper2 {
+    display: grid;
+    grid-template-columns: repeat(3, 130px);
+    gap: 50px;
+    margin-right: 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+.droper2 > p {
+    color: #000042;
+    font-size: 15px;
+}
+.droper3 {
+    position: relative;
+    right: 100px;
+}
+.droper1 > a {
+    text-decoration: none;
+    color: #010045;
+}
 .dropone {
     display: none;
     position: absolute;
     width: 1220px;
     height: 440px;
     left: 20px;
-    top: 145px;
+    top: 143px;
     background-color: white;
 }
-.dropone > .inner {
+.linkers {
+    position: relative;
+    bottom: 380px;
+    display: grid;
+    grid-template-columns: repeat(4, 140px);
+    left: 500px;
+    height: 300px;
+    width: 700px;
+    gap: 50px 40px;
+    justify-content: space-around;
+    height: 300px;
+    line-height: 30px;
+}
+.linkers a {
+    color: #837fa0;
+    text-decoration: none;
+    font-size: 12px;
+}
+.linked {
+    display: flex;
+    flex-direction: column;
+}
+
+.linked > a:hover {
+    color: #010045;
+    font-weight: 600;
+}
+
+.dropone > .outer {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    bottom: 78px;
+}
+.dropone .inner {
     margin-top: 90px;
     margin-left: 40px;
     width: 220px;
@@ -161,6 +219,25 @@
     width: 40px;
     height: 40px;
 }
+.next {
+    position: relative;
+    width: 220px;
+    left: 260px;
+    bottom: 198px;
+    line-height: 10px;
+}
+.next> .para:hover {
+    background-color: #fbf9f7;
+}
+.next > .para {
+    border: 1px solid white;
+    margin: 10px;
+}
+.next p {
+    font-size: 11px;
+    text-align: center;
+}
+
 
 /* here a (dropdowns) css ----> {ends} --------------------> */
 
@@ -176,7 +253,9 @@
     width: 60px;
     border-radius: 4px;
 }
+
 /* -------------------------->this is a (nav)- dropdown cards */
+
 .extra1 {
     height: 130px;
     width: 100vh;
@@ -214,9 +293,11 @@
 img {
     width: 100%;
 }
-/* --------------------------> this is end of homepage => (header)  */
-/* there is another css file for middle section for the website's home page ===>*/
+/* ===>--------------------------> this is end of homepage => (header)  */
+
+/* there is another css file for middle section for the website's home page ===> */
 /* --------------------------> this is start of homepage => (footer)  */
+
 .footer {
     background-color: #000042;
     color: white;
@@ -233,7 +314,6 @@ img {
     font-size: 35px;
 }
 .headline > p {
-    /* border: 1px solid white; */
     text-align: justify;
 }
 .icons {
@@ -257,12 +337,10 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-gap: 150px 150px;
-    /* border: 1px solid black; */
 }
 .link > .check {
     display: grid;
     width:150px;
-    /* border: 1px solid white; */
     gap: 15px;
 }
 .link a {
@@ -277,7 +355,7 @@ img {
     margin-top: 40px;
     font-size: 22px;
 }
-#faq { 
+#faq {
     position: relative;
     bottom: 42px;
 }
