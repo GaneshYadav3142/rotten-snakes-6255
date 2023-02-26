@@ -1,19 +1,30 @@
 
     // 1. catch the form
+    let productDB=JSON.parse(localStorage.getItem("AllProduct"))||[]
     let form = document.querySelector('form');
     form.addEventListener('submit',function(event){
         event.preventDefault();
         let formData = {
-            name: form.name.value,
-            desc: form.desc.value,
-            price: form.price.value,
-            url: form.url.value
+            speccolor: form.speccolor.value,
+            specsize: form.specsize.value,
+            productcategory: form.ProductCategory.value,
+            frameshape: form.frameshape.value,
+            productrating: form.productrating.value,
+            producttitle: form.producttitle.value,
+
+            id: form.id.value,
+          
+            productprice: form.productprice.value,
+        imagebg: form.imagebg.value,
+        imagefg: form.imagefg.value,
+        imagemodel1: form.imagemodel1.value,
+        imagemodel2: form.imagemodel2.value,
+
         }
-        //5. we push this obj into our array
+       
         productDB.push(formData);
-        // 6. we store the data in local storage.
-        // we are trying to store array and object so we need to use stringify
-        localStorage.setItem('productDB',JSON.stringify(productDB));
+        
+        localStorage.setItem('AllProduct',JSON.stringify(productDB));
 
         alert('product added to DB!');
     })
