@@ -1,3 +1,7 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .RowData {
   display: grid;
   gap: 15px;
@@ -10,37 +14,74 @@
 .Wr_images {
   /* border: 1px solid black; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
+  width: 450px;
 }
 .product_detail_wrapper {
+  /* padding-top: 1000px; */
+  width: fit-content;
   display: flex;
-  gap: 170px;
+  gap: 20px;
+  /* border: 1px solid black; */
+  padding-left: 20px;
+  padding-right: 10%;
+  padding-top: 9%;
 }
 
+.title{
+  font-size: x-large;
+}
 .product_details {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   height: 250px;
-  width: 550px;
+  width: 400px;
+  padding: 20px;
 }
 
 button {
   height: 40px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   text-align: center;
-  background-color: teal;
+  background-color: #00bac6;
   color: white;
   border: none;
+  width: 420px;
+  font-size: large;
+  height: 60px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
 }
-
+#warrenty{
+  line-height: 0;
+  font-size: small;
+  font-weight: 600;
+}
 img {
   width: 350px;
 }
 
 .size{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
   color: gray;
+  /* border: 1px solid black; */
+}
+
+.price{
+  font-size: xx-large;
+  font-weight: bold;
+  color: 
+  #329c97;
+  /* border: 1px solid black; */
+  margin-top: 10px;
+}
+.framelense{
+  font-size: large;
+  font-weight: bold;
+  color: gray;
+  /* border: 1px solid black; */
 }
