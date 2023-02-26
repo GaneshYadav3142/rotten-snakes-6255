@@ -5,26 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CheckOut Page</title>
-   <link rel="stylesheet" href="checkout.css">
+   <link rel="stylesheet" href="/checkoutpage2/checkout.css">
 </head>
 
-
-
-
 <body>
-    <div id="logo"><img src="/rotten-snakes-6255/homepage/logo/logo.png"></div>
-<div>
+    <!-- header added here -->
+    <header>
+        <img src="./checkoutpageIMG/logo.png" alt="" href="../homepage/index.html">
+    </header>
+    <!-- header ended here -->
+<div id="parent">
     <div id = "box1">
-    
+        <!-- step added here -->
+        <div class="step">
+            <div class="step div">    <span>1</span>
+              Mobile
+            </div> 
+            <div class="step div">  
+                <span>2</span>
+                 Shipping Address
+            </div>
+            <div class="step div">  
+                <span>3</span>
+                Payment & Discount</div>
+            </div>
+                <br>
+                <!-- step ended here -->
+                <!-- shipping Adress -->
+                <div class="payment"><span>Shipping Address </span>
+                </div>
+                <br>
         <form>
-        <div id = "box3" >
+            
+        <div id = "box3" ><div class="Ship-d-text"><p>Shipping Details</p></div>
             <div id = "box4">
               
-                <div><p>Shipping Details</p></div>
+               <!-- <a href="/rotten-snakes-6255/chekoutPAY/checkoutPAY.html"></a> -->
             
-                <p>Your Product will Get Delivered on the Below Address</p>
+                <p>Your Product will Get Delivered on the Below Address</p> <br>
                 <input class = "inp3 recep" type = "text" placeholder = "Recipient's Name"\>
-                <br>
+                <!-- <br> -->
                 <div id="gender">
                <div >Gender:</div>
                <div>
@@ -36,7 +56,7 @@
                     <div>
                         <i class="fa-solid fa-envelope"></i>
                         <input class="inp1 recepno" type = "number" placeholder="Mobile Number">
-                    </div>
+                    </div> 
                     <div>
                         <input class ="inp2 pin" type = "email" placeholder="Email">
                     </div>
@@ -68,18 +88,14 @@
                         <input class ="inp2 state" type = "text" placeholder="State/Province">
                     </div>
                 </div>
-            </form>
-            
+               <button id="btn">Continue</button>
               </div>
-             
             </div>
-            <div id="button"><button >Continue</button></div>
-        
+        </form>
     </div>
-        <div id="second">
+    <div id="second">
            <!-- append the data here -->
-          
-        </div>
+    </div>
 </div>
 
 
