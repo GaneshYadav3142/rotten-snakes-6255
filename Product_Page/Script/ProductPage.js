@@ -561,7 +561,7 @@ function showAllSpecs(mulimgarr) {
 
       let ProductTitle = document.createElement("p");
       ProductTitle.setAttribute("class", "ProductTitle");
-      ProductTitle.innerText = `₹ ${ele.ProductTitle}`;
+      ProductTitle.innerText = `${ele.ProductTitle}`;
 
       let newDiv = document.createElement("div");
       newDiv.setAttribute("class", "sizeBigdiv");
