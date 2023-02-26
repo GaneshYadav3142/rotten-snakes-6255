@@ -1,0 +1,43 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* h2 */
+}
+form{
+    /* border: 2px solid red; */
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 10px;
+
+    background-color: #F7F5F5;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.newproduct{
+width: 450px;
+padding: 10px;
+border-radius: 10px;
+border: 1px solid black;
+
+}
+#adminbtn{
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #00bac6;
+    font-size: large;
+}
+h2,h1{
+    /* display: block;
+    margin: auto;
+    padding-left: 100px; */
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
