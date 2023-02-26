@@ -561,7 +561,7 @@ function showAllSpecs(mulimgarr) {
 
       let ProductTitle = document.createElement("p");
       ProductTitle.setAttribute("class", "ProductTitle");
-      ProductTitle.innerText = `₹ ${ele.ProductTitle}`;
+      ProductTitle.innerText = `${ele.ProductTitle}`;
 
       let newDiv = document.createElement("div");
       newDiv.setAttribute("class", "sizeBigdiv");
@@ -766,10 +766,10 @@ function displayResults(results) {
 
 //////////////////////////Declarative method////////////////////////////////
 
-// const searchFilterButton = document.getElementById("id of search icon");
-// searchFilterButton.addEventListener("click", handleSearchInput);
+// const searchFilterButton = document.getElementById("searchbox");
+// searchFilterButton.addEventListener("change", handleSearchInput);
 // function handleSearchInput() {
-//   const searchInput = document.getElementById("id of input box").value.split(" ")[0].toLowerCase();
+//   const searchInput = document.getElementById("searchbox").value.split(" ")[0].toLowerCase();
 //   const productData = JSON.parse(localStorage.getItem("AllProduct"));
 //   const filteredProductData = productData.filter(item => {
 //     return item.ProductCategory.split(" ")[0].toLowerCase() === searchInput || item.SpecColor === searchInput || item.FrameShape === searchInput;
@@ -781,4 +781,21 @@ function displayResults(results) {
 //     return;
 //   }
 // }
+
+const search = document.getElementById('searchbox');
+search.addEventListener('keyup', function() {
+  const term = search.value.toLowerCase();
+  for(let i = 0; i < items.length; i++) {
+    
+     let filtered= mulimgarr.includes((item)=>{
+      const item1 = item.ProductTitle.textContent.toLowerCase();
+        if(item1==term){
+          return true;
+        }
+      })
+      showAllSpecs(filtered);
+
+     
+  }
+});
 //////////////////////////Search Part End//////////////////////////////////////

@@ -2,38 +2,41 @@
 <html lang="en">
 <head>
     <title>Admin</title>
-    
+    <link rel="stylesheet" href="admin.css">
 </head>
 <body>
+
     <h1>Welcome Admin!</h1>
     <form>
-        <input type="text" placeholder="SpecColor" required id="speccolor">
+      <h2>Enter Product Details</h2><br>
+        <input type="text" placeholder="SpecColor" required id="SpecColor" class="newproduct">
         <br>
-        <input type="text" placeholder="SpecSize" required id="specsize">
+        <input type="text" placeholder="SpecSize" required id="SpecSize" class="newproduct">
         <br>
-        <input type="text" placeholder="ProductCategory" required id="productcategory">
+        <input type="text" placeholder="ProductCategory" required id="ProductCategory" class="newproduct">
         <br>
-        <input type="text" placeholder="FrameShape" required id="frameshape">
+        <input type="text" placeholder="FrameShape" required id="FrameShape" class="newproduct">
         <br>
-        <input type="number" placeholder="ProductRating" required id="productrating">
+        <input type="number" placeholder="ProductRating" required id="ProductRating" class="newproduct">
         <br>
-        <input type="text" placeholder="ProductTitle" required id="producttitle">
+        <input type="text" placeholder="ProductTitle" required id="ProductTitle" class="newproduct">
         <br>
-        <input type="number" placeholder="id No" required id="id">
+        <input type="number" placeholder="id" required id="id" class="newproduct">
         <br>
-        <input type="number" placeholder="ProductPrice" required id="productprice">
+        <input type="number" placeholder="ProductPrice" required id="ProductPrice" class="newproduct">
         <br>
-        <input type="url" required placeholder="imageBg" id="imagebg">
+        <input type="url" required placeholder="BackgroundImage" id="BackgroundImage" class="newproduct">
         <br>
-        <input type="url" required placeholder="imageFg" id="imagefg">
+        <input type="url" required placeholder="FrontImage" id="FrontImage" class="newproduct">
         <br>
-        <input type="url" required placeholder=" imageModel1" id="imagemodel1">
+        <input type="url" required placeholder=" imageModel1" id="imageModel1" class="newproduct">
         <br>
-        <input type="url" required placeholder=" imageModel2" id="imagemodel2">
+        <input type="url" required placeholder=" imageModel2" id="imageModel2" class="newproduct">
         <br>
-       
-        <input type="submit">
+       <!-- <button id="adminbtn">Add Product</button> -->
+        <input type="submit" id="adminbtn">
     </form>
+    <a href="../loginpage/login.html"><h2>LogOut</h2></a>
 </body>
 </html>
 <script src="admin.js"></script>

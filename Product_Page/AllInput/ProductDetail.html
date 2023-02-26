@@ -54,7 +54,7 @@
           <a href="../loginpage/login.html">Sign In & Sign Up</a>
 
           <a href="#"> <img src="https://cdn-icons-png.flaticon.com/128/35/35538.png" alt=""> Wishlist</a>
-          <a href="#"> <img src="https://cdn-icons-png.flaticon.com/128/2211/2211008.png" alt="" sizes="" srcset=""> Cart</a>
+          <a href="/rotten-snakes-6255/CartPage/html/cart.Html"> <img src="https://cdn-icons-png.flaticon.com/128/2211/2211008.png" alt="" sizes="" srcset=""> Cart</a>
       </div>
   </div>
     <style></style>
@@ -174,26 +174,26 @@
     btn.textContent = "Buy Now";
     btn.addEventListener("click", () => {
       // localStorage.setItem("FinalTotalItems",JSON.stringify(ProdeuctDetailBox))
-      window.location.href="../../CartPage/html/cart.Html"
-    //   if (duplicate(ele)) {
-    //     alert("Product Already in cart");
-    //   } else {
-    //     CartDB.push({ ...ele, quantity: 1 });
-    //     localStorage.setItem("cartproduct", JSON.stringify(CartDB));
-    //     alert("Product added to Cart");
-    //   }
+     // window.location.href="../../CartPage/html/cart.Html"
+      if (duplicate(ele)) {
+         alert("Product Already in cart");
+       } else {
+         CartDB.push({ ...ele, quantity: 1 });
+         localStorage.setItem("cartproduct", JSON.stringify(CartDB));
+         alert("Product added to Cart");
+       }
     });
 
-    // function duplicate(ele) {
-    //   for (let i = 0; i < CartDB.length; i++) {
-    //     if (CartDB[i].id === ele.id) {
-    //       return true;
-    //     }
-    //   }
-    //   return false;
-    // }
-    // card.append(img,id,category,title,price,desc,addtocart)
-    // div.append(card)
+     function duplicate(ele) {
+       for (let i = 0; i < CartDB.length; i++) {
+         if (CartDB[i].id === ele.id) {
+           return true;
+         }
+       }
+       return false;
+     }
+     //card.append(img,id,category,title,price,desc,addtocart)
+     //div.append(card)
 
 
     Category.append(name, title, size, price, btn);

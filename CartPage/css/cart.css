@@ -216,3 +216,6 @@ body{
     padding-left: 80px;
     margin-left: 33px;
 }
+a{
+    text-decoration: none;
+}

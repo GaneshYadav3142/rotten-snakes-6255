@@ -1,4 +1,4 @@
-let arr =JSON.parse(localStorage.getItem("ShowProductDetails"))||[];
+let arr =JSON.parse(localStorage.getItem("cartproduct"))||[];
 
 // catching the tags
 let Emptycart = document.getElementById("emptyall");
@@ -255,7 +255,7 @@ function onload() {
 
     //making the checkout button work
     let checkoutpg=document.createElement("a");
-    checkoutpg.setAttribute("href","/rotten-snakes-6255/checkoutpage/checkout.html");
+    checkoutpg.setAttribute("href","/rotten-snakes-6255/checkoutpage2/checkout.html");
     // console.log(check)
     let checkout = document.createElement("button");
     checkout.innerHTML = "Proceed To Checkout";
