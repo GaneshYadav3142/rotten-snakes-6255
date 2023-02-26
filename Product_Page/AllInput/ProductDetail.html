@@ -6,6 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../Style/ProductDetail.css" />
+    <link rel="stylesheet" href="../../homepage/index.css">
+    <div class="first">
+      <div class="inner">
+          <div class="left">
+              <a href="#"> </a>
+              <a href="#">Do more, Be more</a> | 
+              <a href="#">Try in 3D</a> | 
+              <a href="#">Store Locator</a> | 
+              <a href="#">Quality</a> | 
+              <a href="#">USA</a> | 
+              <a href="#">Singapore</a> | 
+              <a href="#">UAE</a> | 
+              <a href="#">John Jacobs</a> | 
+              <a href="#">Aqualens</a> | 
+              <a href="#">Cobrowsing</a> | 
+              <a href="#">Engineering Blog</a> | 
+              <a href="#">LensKart Franchise</a> | 
+              <a href="#">Lenskart Optom Partner Program</a>
+          </div>
+          <div class="right">
+              <a href="#">Contact Us</a>
+          </div>
+      </div>
+  </div>
+  <!-- this is end of first nav -->
+
+<!-- this is second nav -->
+  <div class="second">
+      <div class="lefty">
+          <div class="one">
+              <div class="img">
+                  <a href="#"><img src="../../homepage/logo/logo.png" alt="logo"></a>
+              </div>
+          </div>
+          <div class="two">
+              <div id="img">
+                  <img src="https://static.lenskart.com/media/mobile/images/phone_number.svg" alt="phone_number">
+              </div>
+              <div class="search">
+                  <input type="search" placeholder="  What are you looking for">
+              </div>
+          </div>
+      </div>
+      <div class="others">
+          <a href="#">Track Order</a>
+          <a href="../loginpage/login.html">Sign In & Sign Up</a>
+
+          <a href="#"> <img src="https://cdn-icons-png.flaticon.com/128/35/35538.png" alt=""> Wishlist</a>
+          <a href="#"> <img src="https://cdn-icons-png.flaticon.com/128/2211/2211008.png" alt="" sizes="" srcset=""> Cart</a>
+      </div>
+  </div>
     <style></style>
   </head>
   <body>
@@ -122,29 +173,30 @@
     let btn = document.createElement("button");
     btn.textContent = "Buy Now";
     btn.addEventListener("click", () => {
-      if (duplicate(ele)) {
-        alert("Product Already in cart");
-      } else {
-        CartDB.push({ ...ele, quantity: 1 });
-        localStorage.setItem("cartproduct", JSON.stringify(CartDB));
-        alert("Product added to Cart");
-      }
+      // localStorage.setItem("FinalTotalItems",JSON.stringify(ProdeuctDetailBox))
+      window.location.href="../../CartPage/html/cart.Html"
+    //   if (duplicate(ele)) {
+    //     alert("Product Already in cart");
+    //   } else {
+    //     CartDB.push({ ...ele, quantity: 1 });
+    //     localStorage.setItem("cartproduct", JSON.stringify(CartDB));
+    //     alert("Product added to Cart");
+    //   }
     });
 
-    function duplicate(ele) {
-      for (let i = 0; i < CartDB.length; i++) {
-        if (CartDB[i].id === ele.id) {
-          return true;
-        }
-      }
-      return false;
-    }
+    // function duplicate(ele) {
+    //   for (let i = 0; i < CartDB.length; i++) {
+    //     if (CartDB[i].id === ele.id) {
+    //       return true;
+    //     }
+    //   }
+    //   return false;
+    // }
     // card.append(img,id,category,title,price,desc,addtocart)
     // div.append(card)
+
+
     Category.append(name, title, size, price, btn);
     ProdeuctDetailBox.append(Category);
   }
 </script>
-
-</html>
-

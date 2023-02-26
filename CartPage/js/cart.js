@@ -1,5 +1,4 @@
-let arr =JSON.parse(localStorage.getItem("AllProduct"))||[];
-
+let arr =JSON.parse(localStorage.getItem("ShowProductDetails"))||[];
 
 // catching the tags
 let Emptycart = document.getElementById("emptyall");
@@ -111,7 +110,7 @@ function onload() {
 
             //image for left div--------------------------------------------------------------
             let img = document.createElement("img");
-            img.src = item.image;
+            img.src = item.FrontImage;
             left.append(img);
             //--------------------------------------------------------------------------------
 
@@ -122,21 +121,23 @@ function onload() {
             lines1.classList.add("lines","one");
             let title = document.createElement("p");
             title.classList.add("title");
-            title.innerHTML = item.title;
+            title.innerHTML = item.ProductTitle;
             let price= document.createElement("p");
-            price.innerHTML = "₹"+item.price;
+            price.innerHTML = "₹"+item.ProductPrice;
             lines1.append(title,price);
 
             //final price
+
             let lines2 = document.createElement("div");
             lines2.classList.add("lines","two");
             let finalPrice = document.createElement("p");
             finalPrice.innerHTML = "Final Price";
             let finalPriceValue = document.createElement("p");
-            finalPriceValue.innerHTML = "₹"+item.price*item.unit;
-            pricesum += item.price*item.unit;
+            finalPriceValue.innerHTML = "₹"+item.ProductPrice*item.qty;
+            pricesum += item.ProductPrice*item.qty;
             lines2.append(finalPrice,finalPriceValue);
 
+            
             //quantity and remove
             let lines3 = document.createElement("div");
             lines3.classList.add("lines","three");
@@ -147,7 +148,7 @@ function onload() {
             decrease.id = "decrease";
             decrease.innerHTML = "-";
             let counter = document.createElement("p");
-            counter.innerHTML = item.unit;
+            counter.innerHTML = item.qty;
             let increase = document.createElement("p");
             increase.id = "increase";
             increase.innerHTML = "+";
@@ -177,12 +178,12 @@ function onload() {
 
             //making the quantity work
             decrease.addEventListener("click",function(){
-                // count=item.unit;
-                if(item.unit>1){
-                    item.unit--;
-                    pricesum -= item.price;
-                    counter.innerHTML = item.unit;
-                    finalPriceValue.innerHTML = "₹"+item.price*item.unit;
+                // count=item.qty;
+                if(item.qty>1){
+                    item.qty--;
+                    pricesum -= item.ProductPrice;
+                    counter.innerHTML = item.qty;
+                    finalPriceValue.innerHTML = "₹"+item.ProductPrice*item.qty;
                     localStorage.setItem("AllProduct",JSON.stringify(arr));
                     onload();
                 }
@@ -190,10 +191,10 @@ function onload() {
 
             increase.addEventListener("click",function(){
                 // count=parseInt(counter.innerHTML);
-                item.unit++;
-                pricesum += item.price;
-                counter.innerHTML = item.unit;
-                finalPriceValue.innerHTML = "₹"+item.price*item.unit;
+                item.qty++;
+                pricesum += item.ProductPrice;
+                counter.innerHTML = item.qty;
+                finalPriceValue.innerHTML = "₹"+item.ProductPrice*item.qty;
                 localStorage.setItem("AllProduct",JSON.stringify(arr));
                 onload();
             });

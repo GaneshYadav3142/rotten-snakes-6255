@@ -1,7 +1,6 @@
 let mulimgarr = [
   {
     SpecColor: "black",
-    unit:1,
     SpecSize: "Medium",
     ProductCategory: "Lenskart Air",
     FrameShape: "rectangle",
@@ -33,9 +32,8 @@ let mulimgarr = [
   },
   {
     SpecColor: "blue",
-    unit:1,
     SpecSize: "Narrow",
-    ProductCategory: "Lenskart Air Manoj",
+    ProductCategory: "Lenskart Air",
     FrameShape: "geometric",
     ProductRating: "4.5",
     ProductTitle: " Dark Blue Full Rim Wayfarer Eyeglasses",
@@ -67,7 +65,6 @@ let mulimgarr = [
 
   {
     SpecColor: "blue",
-    unit:1,
     SpecSize: "Medium",
     ProductCategory: "Vincent Chase",
     FrameShape: "rectangle",
@@ -99,7 +96,6 @@ let mulimgarr = [
   },
   {
     SpecColor: "black",
-    unit:1,
     SpecSize: "Extra Narrow",
     ProductCategory: "Vincent Chase",
     FrameShape: "round",
@@ -108,7 +104,10 @@ let mulimgarr = [
     id: 3,
     ProductPrice: 1999,
     qty: 1,
-
+    BackgroundImage:
+      "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e13043-c1-eyeglasses_g_7953_3.jpg",
+    FrontImage:
+      "https://static1.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e13043-c1-eyeglasses_g_7954_3.jpg",
     imageModel1:
       "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e13043-c1-eyeglasses_7i5a3945lk.jpg",
     imageModel2:
@@ -129,12 +128,11 @@ let mulimgarr = [
 
   {
     SpecColor: "brown",
-    unit:1,
     SpecSize: "Narrow",
     ProductCategory: "Vincent Chase",
     FrameShape: "cat eye",
     ProductRating: "4.4",
-    ProductTitle: " Tortoise Brown Transparent Full Rim Cat Eye Eyeglasses",
+    ProductTitle: " Tortoise Brown Transparent Full Rim ",
     id: 4,
     ProductPrice: 2999,
     qty: 1,
@@ -162,7 +160,6 @@ let mulimgarr = [
 
   {
     SpecColor: "brown",
-    unit:1,
     SpecSize: "Medium",
     ProductCategory: "Vincent Chase",
     FrameShape: "aviator",
@@ -172,7 +169,10 @@ let mulimgarr = [
     ProductPrice: 1450,
     qty: 1,
 
-
+    BackgroundImage:
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/brown-gold-black-full-rim-rectangle-lenskart-air-signia-la-e12709-c5-eyeglasses_g_256430_sep_2022.jpg",
+    FrontImage:
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/brown-gold-black-full-rim-rectangle-lenskart-air-signia-la-e12709-c5-eyeglasses_g_256330_sep_2022.jpg",
     imageModel1:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/brown-gold-black-full-rim-rectangle-lenskart-air-signia-la-e12709-c5-eyeglasses_31_oct_vc_model_shoot170375_201327_03_11_2022.jpg",
     imageModel2:
@@ -193,7 +193,6 @@ let mulimgarr = [
 
   {
     SpecColor: "brown",
-    unit:1,
     SpecSize: "Extra Wide",
     ProductCategory: "Lenskart Air",
     FrameShape: "rectangle",
@@ -202,7 +201,10 @@ let mulimgarr = [
     id: 6,
     ProductPrice: 4500,
     qty: 1,
-
+    BackgroundImage:
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/black-brown-copper-full-rim-aviator-lenskart-air-signia-la-e14201-c3-eyeglasses_g_4847_10_21_22.jpg",
+    FrontImage:
+      "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/black-brown-copper-full-rim-aviator-lenskart-air-signia-la-e14201-c3-eyeglasses_g_4849_10_21_22.jpg",
     imageModel1:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/black-brown-copper-full-rim-aviator-lenskart-air-signia-la-e14201-c3-eyeglasses_15_feb_2023_m.f213503_201339_22_02_2023.jpg",
     imageModel2:
@@ -223,7 +225,6 @@ let mulimgarr = [
 
   {
     SpecColor: "blue",
-    unit:1,
     SpecSize: "Narrow",
     ProductCategory: "Lenskart Air",
     FrameShape: "rectangle",
@@ -257,7 +258,6 @@ let mulimgarr = [
   {
     SpecColor: "black",
     SpecSize: "Medium",
-    unit:1,
     ProductCategory: "Lenskart Air",
     FrameShape: "round",
     ProductRating: "4.2",
@@ -265,7 +265,6 @@ let mulimgarr = [
     id: 8,
     ProductPrice: 999,
     qty: 1,
- 
     BackgroundImage:
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
     FrontImage:
@@ -302,8 +301,6 @@ let mulimgarr = [
       "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//l/i/maroon-full-rim-round-lenskart-air-flex-la-e12849-c3-eyeglasses_g_7620_24_12_2022.jpg",
     FrontImage:
       "https://static2.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_g_9930.jpg",
-
-
     imageModel1:
       "https://static.lenskart.com/media/catalog/product/cache/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e13778-c2-eyeglasses_8759_lk_2.jpg",
     imageModel2:
@@ -511,20 +508,14 @@ function showAllSpecs(mulimgarr) {
 
       let hearticon = document.createElement("i");
       hearticon.setAttribute("class", "far fa-heart");
-      hearticon.setAttribute("id", `hearticon${ele.id}`);
+      hearticon.setAttribute("id", "hearticon");
       hearticon.onclick = function () {
-        addToShortlist(ele);
+        addToShortlist(ele.id);
       };
 
       let imageBox = document.createElement("div");
       imageBox.setAttribute("class", "imageBox");
-      // imageBox.onclick = function () {
-      //   productDetails(ele);
-      // };
-
-      // imageBox.style.background = `url(${ele.BackgroundImage})no-repeat`;
-      // imageBox.style.backgroundSpecSize = "100%";
-
+      
       let image = document.createElement("img");
       image.src = `${ele.FrontImage}`;
       image.style.height = "250px";
@@ -534,8 +525,6 @@ function showAllSpecs(mulimgarr) {
       box.style.height = "auto";
 
       imageBox.addEventListener("mouseenter", () => {
-        // console.log(e)
-        // console.log("Angur")
         image.src = ele.BackgroundImage;
         imageBox.appendChild(image);
       });
@@ -559,16 +548,20 @@ function showAllSpecs(mulimgarr) {
       };
 
       let ProductCategory = document.createElement("p");
-      ProductCategory.setAttribute("class", "catagory");
+      ProductCategory.setAttribute("class", "ProductCategory");
       ProductCategory.innerText = `${ele.ProductCategory}`;
 
       let ProductRating = document.createElement("p");
       ProductRating.setAttribute("class", "ProductRating");
-      ProductRating.innerHTML = `${ele.ProductRating} <i class="star fas fa-star"></i>`;
+      ProductRating.innerHTML = ` <i class="fa-solid fa-star"></i> ${ele.ProductRating} `;
 
       let ProductPrice = document.createElement("p");
-      ProductPrice.setAttribute("class", "price");
-      ProductPrice.innerText = `₹${ele.ProductPrice}`;
+      ProductPrice.setAttribute("class", "ProductPrice");
+      ProductPrice.innerText = `₹ ${ele.ProductPrice}`;
+
+      let ProductTitle = document.createElement("p");
+      ProductTitle.setAttribute("class", "ProductTitle");
+      ProductTitle.innerText = `₹ ${ele.ProductTitle}`;
 
       let newDiv = document.createElement("div");
       newDiv.setAttribute("class", "sizeBigdiv");
@@ -580,9 +573,8 @@ function showAllSpecs(mulimgarr) {
       SpecColor.setAttribute("class", "pdtclr");
       SpecColor.style.backgroundColor = ele.SpecColor;
       newDiv.append(SpecSize, SpecColor);
-      // SpecSize.appendChild(SpecColor);
-      // console.log(SpecSize);
-      detail.append(ProductCategory, ProductRating, ProductPrice, newDiv);
+      
+      detail.append(ProductCategory, ProductTitle,ProductRating, ProductPrice, newDiv);
 
       box.addEventListener("click", () => {
         localStorage.setItem("singleItem", JSON.stringify(ele));
@@ -735,10 +727,10 @@ const sortByPriceDescending = () => {
 
 //////////////////////////Imparative method///////////////////////////////////
 
-const searchInput = document.getElementById('search');
-const searchResults = document.getElementById('searchResults');
+const searchInput = document.getElementById("search");
+const searchResults = document.getElementById("searchResults");
 let debounceTimeout;
-searchInput.addEventListener('input', () => {
+searchInput.addEventListener("input", () => {
   // Clear any previously set timeout to debounce the search function
   clearTimeout(debounceTimeout);
   // Set a new timeout to debounce the search function
@@ -750,16 +742,16 @@ searchInput.addEventListener('input', () => {
 });
 function searchFunction(searchTerm) {
   // Replace this with your own search logic
-  const data = mulimgarr
-  const filteredData = data.filter(item => item.includes(searchTerm));
+  const data = mulimgarr;
+  const filteredData = data.filter((item) => item.includes(searchTerm));
   return filteredData;
 }
 function displayResults(results) {
   // Clear previous search results
-  searchResults.innerHTML = '';
+  searchResults.innerHTML = "";
   // Display new search results
-  results.forEach(result => {
-    const li = document.createElement('li');
+  results.forEach((result) => {
+    const li = document.createElement("li");
     li.textContent = result;
     searchResults.appendChild(li);
   });
