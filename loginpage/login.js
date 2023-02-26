@@ -48,7 +48,7 @@ let logInForm = document.querySelector('#login')
               user=userDB[userDB.length-1].name
                localStorage.setItem('users',JSON.stringify(userDB));
                alert('Registered successfully!')
-               window.location.assign("/homepage/index.html")
+               window.location.assign('/rotten-snakes-6255/homepage/index.html');
                localStorage.setItem("user",userDB[userDB.length-1].name);
               sessionStorage.setItem("user2",localStorage.getItem("user"));
               
@@ -85,7 +85,7 @@ let logInForm = document.querySelector('#login')
                    if(el.password===logInForm.lPassword.value){
                        alert("login successful!");
                       console.log(el.name)
-                       window.location.assign('/homepage/index.html');
+                      window.location.assign('/rotten-snakes-6255/homepage/index.html');
                        localStorage.setItem("user",el.name);
                        sessionStorage.setItem("user2",localStorage.getItem("user"))
                      //flag=1

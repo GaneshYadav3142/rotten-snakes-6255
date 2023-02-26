@@ -118,7 +118,7 @@ let user1=document.getElementById("user1");
 //let username=localStorage.getItem("user");
 console.log(user2)
 user1.addEventListener("click",()=>{
-    window.location.assign("/loginpage/login.html");
+    window.location.href = "../loginpage/login.html";
 })
 user1.textContent = user2;
 

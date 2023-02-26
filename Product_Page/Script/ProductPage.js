@@ -33,7 +33,7 @@ let mulimgarr = [
   {
     SpecColor: "blue",
     SpecSize: "Narrow",
-    ProductCategory: "Lenskart Air Manoj",
+    ProductCategory: "Lenskart Air",
     FrameShape: "geometric",
     ProductRating: "4.5",
     ProductTitle: " Dark Blue Full Rim Wayfarer Eyeglasses",
@@ -132,7 +132,7 @@ let mulimgarr = [
     ProductCategory: "Vincent Chase",
     FrameShape: "cat eye",
     ProductRating: "4.4",
-    ProductTitle: " Tortoise Brown Transparent Full Rim Cat Eye Eyeglasses",
+    ProductTitle: " Tortoise Brown Transparent Full Rim ",
     id: 4,
     ProductPrice: 2999,
     qty: 1,
@@ -508,20 +508,14 @@ function showAllSpecs(mulimgarr) {
 
       let hearticon = document.createElement("i");
       hearticon.setAttribute("class", "far fa-heart");
-      hearticon.setAttribute("id", `hearticon${ele.id}`);
+      hearticon.setAttribute("id", "hearticon");
       hearticon.onclick = function () {
-        addToShortlist(ele);
+        addToShortlist(ele.id);
       };
 
       let imageBox = document.createElement("div");
       imageBox.setAttribute("class", "imageBox");
-      // imageBox.onclick = function () {
-      //   productDetails(ele);
-      // };
-
-      // imageBox.style.background = `url(${ele.BackgroundImage})no-repeat`;
-      // imageBox.style.backgroundSpecSize = "100%";
-
+      
       let image = document.createElement("img");
       image.src = `${ele.FrontImage}`;
       image.style.height = "250px";
@@ -531,8 +525,6 @@ function showAllSpecs(mulimgarr) {
       box.style.height = "auto";
 
       imageBox.addEventListener("mouseenter", () => {
-        // console.log(e)
-        // console.log("Angur")
         image.src = ele.BackgroundImage;
         imageBox.appendChild(image);
       });
@@ -556,16 +548,20 @@ function showAllSpecs(mulimgarr) {
       };
 
       let ProductCategory = document.createElement("p");
-      ProductCategory.setAttribute("class", "catagory");
+      ProductCategory.setAttribute("class", "ProductCategory");
       ProductCategory.innerText = `${ele.ProductCategory}`;
 
       let ProductRating = document.createElement("p");
       ProductRating.setAttribute("class", "ProductRating");
-      ProductRating.innerHTML = `${ele.ProductRating} <i class="star fas fa-star"></i>`;
+      ProductRating.innerHTML = ` <i class="fa-solid fa-star"></i> ${ele.ProductRating} `;
 
       let ProductPrice = document.createElement("p");
-      ProductPrice.setAttribute("class", "price");
-      ProductPrice.innerText = `₹${ele.ProductPrice}`;
+      ProductPrice.setAttribute("class", "ProductPrice");
+      ProductPrice.innerText = `₹ ${ele.ProductPrice}`;
+
+      let ProductTitle = document.createElement("p");
+      ProductTitle.setAttribute("class", "ProductTitle");
+      ProductTitle.innerText = `₹ ${ele.ProductTitle}`;
 
       let newDiv = document.createElement("div");
       newDiv.setAttribute("class", "sizeBigdiv");
@@ -577,9 +573,8 @@ function showAllSpecs(mulimgarr) {
       SpecColor.setAttribute("class", "pdtclr");
       SpecColor.style.backgroundColor = ele.SpecColor;
       newDiv.append(SpecSize, SpecColor);
-      // SpecSize.appendChild(SpecColor);
-      // console.log(SpecSize);
-      detail.append(ProductCategory, ProductRating, ProductPrice, newDiv);
+      
+      detail.append(ProductCategory, ProductTitle,ProductRating, ProductPrice, newDiv);
 
       box.addEventListener("click", () => {
         localStorage.setItem("singleItem", JSON.stringify(ele));
@@ -732,10 +727,10 @@ const sortByPriceDescending = () => {
 
 //////////////////////////Imparative method///////////////////////////////////
 
-const searchInput = document.getElementById('search');
-const searchResults = document.getElementById('searchResults');
+const searchInput = document.getElementById("search");
+const searchResults = document.getElementById("searchResults");
 let debounceTimeout;
-searchInput.addEventListener('input', () => {
+searchInput.addEventListener("input", () => {
   // Clear any previously set timeout to debounce the search function
   clearTimeout(debounceTimeout);
   // Set a new timeout to debounce the search function
@@ -747,16 +742,16 @@ searchInput.addEventListener('input', () => {
 });
 function searchFunction(searchTerm) {
   // Replace this with your own search logic
-  const data = mulimgarr
-  const filteredData = data.filter(item => item.includes(searchTerm));
+  const data = mulimgarr;
+  const filteredData = data.filter((item) => item.includes(searchTerm));
   return filteredData;
 }
 function displayResults(results) {
   // Clear previous search results
-  searchResults.innerHTML = '';
+  searchResults.innerHTML = "";
   // Display new search results
-  results.forEach(result => {
-    const li = document.createElement('li');
+  results.forEach((result) => {
+    const li = document.createElement("li");
     li.textContent = result;
     searchResults.appendChild(li);
   });
